@@ -644,7 +644,7 @@ GameObject:
   - component: {fileID: 84888963}
   m_Layer: 0
   m_Name: Pipe(B) (5)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2284,9 +2284,10 @@ GameObject:
   - component: {fileID: 236095921}
   - component: {fileID: 236095920}
   - component: {fileID: 236095919}
+  - component: {fileID: 236095922}
   m_Layer: 0
   m_Name: Goomba (2)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2420,6 +2421,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &236095922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236095917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 236095919}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &253935556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2748,9 +2765,10 @@ GameObject:
   - component: {fileID: 259949624}
   - component: {fileID: 259949623}
   - component: {fileID: 259949622}
+  - component: {fileID: 259949625}
   m_Layer: 0
   m_Name: Goomba (4)
-  m_TagString: Ground
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2884,6 +2902,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &259949625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259949620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 259949622}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &269491187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4402,9 +4436,10 @@ GameObject:
   - component: {fileID: 383373621}
   - component: {fileID: 383373620}
   - component: {fileID: 383373619}
+  - component: {fileID: 383373622}
   m_Layer: 0
   m_Name: Goomba (7)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4538,6 +4573,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &383373622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383373617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 383373619}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &392284899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4708,9 +4759,10 @@ GameObject:
   - component: {fileID: 427328894}
   - component: {fileID: 427328893}
   - component: {fileID: 427328892}
+  - component: {fileID: 427328895}
   m_Layer: 0
   m_Name: Goomba (6)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4844,6 +4896,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &427328895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427328890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 427328892}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &430927789
 GameObject:
   m_ObjectHideFlags: 0
@@ -5806,7 +5874,7 @@ GameObject:
   - component: {fileID: 474713708}
   m_Layer: 0
   m_Name: Pipe(T) (2)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7156,7 +7224,7 @@ GameObject:
   - component: {fileID: 562831821}
   m_Layer: 0
   m_Name: Pipe(B) (4)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7630,7 +7698,7 @@ GameObject:
   - component: {fileID: 625775365}
   m_Layer: 0
   m_Name: Pipe(B) (3)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8141,7 +8209,7 @@ GameObject:
   - component: {fileID: 663391263}
   m_Layer: 0
   m_Name: Pipe(B)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9245,9 +9313,10 @@ GameObject:
   - component: {fileID: 707080078}
   - component: {fileID: 707080077}
   - component: {fileID: 707080076}
+  - component: {fileID: 707080079}
   m_Layer: 0
   m_Name: Goomba
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9381,6 +9450,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &707080079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707080074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 707080076}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &712941131
 GameObject:
   m_ObjectHideFlags: 0
@@ -10401,9 +10486,10 @@ GameObject:
   - component: {fileID: 822042219}
   - component: {fileID: 822042218}
   - component: {fileID: 822042217}
+  - component: {fileID: 822042220}
   m_Layer: 0
   m_Name: Goomba (5)
-  m_TagString: Ground
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10537,6 +10623,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &822042220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822042215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 822042217}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &845772803
 GameObject:
   m_ObjectHideFlags: 0
@@ -10709,7 +10811,7 @@ GameObject:
   - component: {fileID: 846508769}
   m_Layer: 0
   m_Name: Pipe(B) (1)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11815,7 +11917,7 @@ GameObject:
   - component: {fileID: 943041504}
   m_Layer: 0
   m_Name: Pipe(T)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13251,11 +13353,11 @@ Transform:
   m_GameObject: {fileID: 1055238683}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.468, y: -0.0074791, z: 0.098647}
-  m_LocalScale: {x: 0.42470014, y: 0.5260689, z: 1}
+  m_LocalPosition: {x: 26.400974, y: 42.837322, z: 1.1087576}
+  m_LocalScale: {x: 1.1275707, y: 1.454664, z: 1.1326}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1102097784}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1055238685
 Rigidbody2D:
@@ -13855,7 +13957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1102097784}
   m_Layer: 0
-  m_Name: Enemies
+  m_Name: Goombas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13890,7 +13992,6 @@ Transform:
   - {fileID: 2051728092}
   - {fileID: 1780311653}
   - {fileID: 1788384160}
-  - {fileID: 1055238684}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1123391960
@@ -14379,9 +14480,10 @@ GameObject:
   - component: {fileID: 1189689580}
   - component: {fileID: 1189689579}
   - component: {fileID: 1189689578}
+  - component: {fileID: 1189689581}
   m_Layer: 0
   m_Name: Goomba (10)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14515,6 +14617,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1189689581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189689576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1189689578}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1202684315
 GameObject:
   m_ObjectHideFlags: 0
@@ -14685,9 +14803,10 @@ GameObject:
   - component: {fileID: 1204176950}
   - component: {fileID: 1204176949}
   - component: {fileID: 1204176948}
+  - component: {fileID: 1204176951}
   m_Layer: 0
   m_Name: Goomba (11)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14821,6 +14940,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1204176951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204176946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1204176948}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1211831371
 GameObject:
   m_ObjectHideFlags: 0
@@ -18270,7 +18405,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -497853747
-  m_SortingLayer: 0
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 74f2d1e33fe86634aa79d3fd11f83cf0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18280,7 +18415,7 @@ SpriteRenderer:
   m_Size: {x: 10, y: 6.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1550012446
@@ -18507,7 +18642,7 @@ GameObject:
   - component: {fileID: 1645654079}
   m_Layer: 0
   m_Name: Pipe(T) (1)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19453,9 +19588,10 @@ GameObject:
   - component: {fileID: 1672188594}
   - component: {fileID: 1672188593}
   - component: {fileID: 1672188592}
+  - component: {fileID: 1672188595}
   m_Layer: 0
   m_Name: Goomba (8)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19589,6 +19725,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1672188595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672188590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1672188592}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1685579368
 GameObject:
   m_ObjectHideFlags: 0
@@ -20039,7 +20191,7 @@ GameObject:
   - component: {fileID: 1706322201}
   m_Layer: 0
   m_Name: Pipe(B) (2)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20661,7 +20813,7 @@ GameObject:
   - component: {fileID: 1732808664}
   m_Layer: 0
   m_Name: Pipe(T) (4)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21923,9 +22075,10 @@ GameObject:
   - component: {fileID: 1777089279}
   - component: {fileID: 1777089278}
   - component: {fileID: 1777089277}
+  - component: {fileID: 1777089280}
   m_Layer: 0
   m_Name: Goomba (12)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22059,6 +22212,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1777089280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777089275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1777089277}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1778859892
 GameObject:
   m_ObjectHideFlags: 0
@@ -22229,9 +22398,10 @@ GameObject:
   - component: {fileID: 1780311656}
   - component: {fileID: 1780311655}
   - component: {fileID: 1780311654}
+  - component: {fileID: 1780311657}
   m_Layer: 0
   m_Name: Goomba (14)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22365,6 +22535,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1780311657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780311652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1780311654}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1788384159
 GameObject:
   m_ObjectHideFlags: 0
@@ -22377,9 +22563,10 @@ GameObject:
   - component: {fileID: 1788384163}
   - component: {fileID: 1788384162}
   - component: {fileID: 1788384161}
+  - component: {fileID: 1788384164}
   m_Layer: 0
   m_Name: Goomba (15)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22513,6 +22700,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1788384164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788384159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1788384161}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1796753108
 GameObject:
   m_ObjectHideFlags: 0
@@ -22525,9 +22728,10 @@ GameObject:
   - component: {fileID: 1796753112}
   - component: {fileID: 1796753111}
   - component: {fileID: 1796753110}
+  - component: {fileID: 1796753113}
   m_Layer: 0
   m_Name: Goomba (9)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22661,6 +22865,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1796753113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796753108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1796753110}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1797041504
 GameObject:
   m_ObjectHideFlags: 0
@@ -23779,9 +23999,10 @@ GameObject:
   - component: {fileID: 1849355315}
   - component: {fileID: 1849355314}
   - component: {fileID: 1849355313}
+  - component: {fileID: 1849355316}
   m_Layer: 0
   m_Name: Goomba (1)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23915,6 +24136,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1849355316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849355311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 1849355313}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &1863200326
 GameObject:
   m_ObjectHideFlags: 0
@@ -24719,7 +24956,7 @@ GameObject:
   - component: {fileID: 1963818022}
   m_Layer: 0
   m_Name: Pipe(T) (5)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25191,9 +25428,10 @@ GameObject:
   - component: {fileID: 2000834090}
   - component: {fileID: 2000834089}
   - component: {fileID: 2000834088}
+  - component: {fileID: 2000834091}
   m_Layer: 0
   m_Name: Goomba (3)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25327,6 +25565,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2000834091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000834086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 2000834088}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &2001105731
 GameObject:
   m_ObjectHideFlags: 0
@@ -25655,9 +25909,10 @@ GameObject:
   - component: {fileID: 2051728095}
   - component: {fileID: 2051728094}
   - component: {fileID: 2051728093}
+  - component: {fileID: 2051728096}
   m_Layer: 0
   m_Name: Goomba (13)
-  m_TagString: Untagged
+  m_TagString: Goomba
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25791,6 +26046,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2051728096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051728091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goomba: {fileID: 1102097783}
+  goombaRB: {fileID: 2051728093}
+  goombaWalkSpeed: 2.25
+  goombaWalkLeft: 0
 --- !u!1 &2071778049
 GameObject:
   m_ObjectHideFlags: 0
@@ -25805,7 +26076,7 @@ GameObject:
   - component: {fileID: 2071778050}
   m_Layer: 0
   m_Name: Pipe(T) (3)
-  m_TagString: Ground
+  m_TagString: Pipe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27413,6 +27684,7 @@ SceneRoots:
   - {fileID: 1550012446}
   - {fileID: 1332967319}
   - {fileID: 1102097784}
+  - {fileID: 1055238684}
   - {fileID: 1685579369}
   - {fileID: 1627991279}
   - {fileID: 639252308}
