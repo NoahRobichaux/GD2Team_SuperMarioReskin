@@ -124,274 +124,278 @@ public class EnemyMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "Pipe" && goombaWalkLeft == true)
         {
+            goombaRB.velocity = Vector2.zero;
             goombaRB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goombaWalkLeft == false)
         {
+            goombaRB.velocity = Vector2.zero;
             goombaRB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goombaWalkLeft == true)
         {
+            goombaRB.velocity = Vector2.zero;
             goombaRB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goombaWalkLeft == false)
         {
+            goombaRB.velocity = Vector2.zero;
             goombaRB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba1WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba1RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba1WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba1RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba1WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba1RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba1WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba1RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba2WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba2RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba2WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba2RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba2WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba2RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba2WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba2RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba3WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba3RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba3WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba3RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba3WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba3RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba3WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba3RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba4WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba4RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba4WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba4RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba4WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba4RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba4WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba4RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba5WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba5RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba5WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba5RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba5WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba5RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba5WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba5RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba6WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba6RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba6WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba6RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba6WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba6RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba6WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba6RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba7WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba7RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba7WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba7RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba7WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba7RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba7WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba7RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba8WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba8RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba8WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba8RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba8WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba8RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba8WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba8RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba9WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba9RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba9WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba9RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba9WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba9RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba9WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba9RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba10WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba10RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba10WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba10RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba10WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba10RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba10WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba10RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba11WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba11RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba11WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba11RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba11WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba11RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba11WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba11RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba12WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba12RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba12WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba12RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba12WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba12RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba12WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba12RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba13WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba13RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba13WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba13RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba13WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba13RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba13WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba13RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba14WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba14RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba14WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba14RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba14WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba14RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba14WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba14RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
         if (collision.gameObject.tag == "Pipe" && goomba15WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba15RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba15WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba15RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba15WalkLeft == true)
         {
-            goombaRB.velocity = Vector2.right * goombaWalkSpeed;
+            goomba15RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba15WalkLeft == false)
         {
-            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba15RB.velocity = Vector2.left * goombaWalkSpeed;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)

@@ -2333,7 +2333,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &236095920
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2859,7 +2859,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &259949623
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4575,7 +4575,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &383373620
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4943,7 +4943,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &427328893
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -9542,7 +9542,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &707080077
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10760,7 +10760,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &822042218
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14799,7 +14799,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1189689579
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15167,7 +15167,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1204176949
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18008,7 +18008,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!4 &1499631665 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
   m_PrefabInstance: {fileID: 1518466741}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1512327112
@@ -18177,64 +18177,64 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -78.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_Name
+      value: Mario
+      objectReference: {fileID: 0}
     - target: {fileID: 4610011258375742094, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canJump","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -78.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 42.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7102567438669882162, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
-      propertyPath: m_Name
-      value: Mario
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
       insertIndex: -1
       addedObject: {fileID: 519420032}
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 908b189607f928148aabbddf90307287, type: 3}
 --- !u!1 &1519206657
 GameObject:
   m_ObjectHideFlags: 0
@@ -19997,7 +19997,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1672188593
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22529,7 +22529,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1777089278
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -22897,7 +22897,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1780311655
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23107,7 +23107,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1788384162
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -23317,7 +23317,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1796753111
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -24633,7 +24633,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &1849355314
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26107,7 +26107,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &2000834089
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26633,7 +26633,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Constraints: 0
 --- !u!58 &2051728094
 CircleCollider2D:
   m_ObjectHideFlags: 0
