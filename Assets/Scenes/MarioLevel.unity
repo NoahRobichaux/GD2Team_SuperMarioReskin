@@ -2433,55 +2433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &253935556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2959,55 +2910,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &269491187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4675,55 +4577,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &392284899
 GameObject:
   m_ObjectHideFlags: 0
@@ -5043,55 +4896,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &430927789
 GameObject:
   m_ObjectHideFlags: 0
@@ -6824,98 +6628,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &519420028
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 519420032}
-  - component: {fileID: 519420031}
-  - component: {fileID: 519420029}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: Ground
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &519420029
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
---- !u!20 &519420031
-Camera:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_GateFitMode: 2
-  m_FOVAxisMode: 0
-  m_Iso: 200
-  m_ShutterSpeed: 0.005
-  m_Aperture: 16
-  m_FocusDistance: 10
-  m_FocalLength: 50
-  m_BladeCount: 5
-  m_Curvature: {x: 2, y: 11}
-  m_BarrelClipping: 0.25
-  m_Anamorphism: 0
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 6
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 0
-  m_HDR: 1
-  m_AllowMSAA: 0
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 0
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &519420032
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10.217}
-  m_LocalScale: {x: 2.7877297, y: 2.7305942, z: 1.1326}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1499631665}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &531158407
 GameObject:
   m_ObjectHideFlags: 0
@@ -9642,55 +9354,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &712941131
 GameObject:
   m_ObjectHideFlags: 0
@@ -10860,55 +10523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &845772803
 GameObject:
   m_ObjectHideFlags: 0
@@ -14899,55 +14513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1202684315
 GameObject:
   m_ObjectHideFlags: 0
@@ -15267,55 +14832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1211831371
 GameObject:
   m_ObjectHideFlags: 0
@@ -18006,11 +17522,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1499631665 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-  m_PrefabInstance: {fileID: 1518466741}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1512327112
 GameObject:
   m_ObjectHideFlags: 0
@@ -18177,64 +17688,64 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -78.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 42.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_Name
-      value: Mario
-      objectReference: {fileID: 0}
     - target: {fileID: 4610011258375742094, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canJump","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"levelEnd","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isTouchingFlagpoleBase","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -78.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 42.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7102567438669882162, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
+      propertyPath: m_Name
+      value: Mario
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 519420032}
+    m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 908b189607f928148aabbddf90307287, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 522d24da957843c419c0ec3e57a9c66c, type: 3}
 --- !u!1 &1519206657
 GameObject:
   m_ObjectHideFlags: 0
@@ -18765,7 +18276,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -497853747
-  m_SortingLayer: -1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 74f2d1e33fe86634aa79d3fd11f83cf0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -18775,7 +18286,7 @@ SpriteRenderer:
   m_Size: {x: 10, y: 6.08}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1550012446
@@ -20097,55 +19608,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1685579368
 GameObject:
   m_ObjectHideFlags: 0
@@ -22629,55 +22091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1778859892
 GameObject:
   m_ObjectHideFlags: 0
@@ -22997,55 +22410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1788384159
 GameObject:
   m_ObjectHideFlags: 0
@@ -23207,55 +22571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1796753108
 GameObject:
   m_ObjectHideFlags: 0
@@ -23417,55 +22732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1797041504
 GameObject:
   m_ObjectHideFlags: 0
@@ -24428,7 +23694,7 @@ GameObject:
   - component: {fileID: 1849095776}
   m_Layer: 0
   m_Name: Pole
-  m_TagString: Untagged
+  m_TagString: Flagpole
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24504,7 +23770,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -24733,55 +23999,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &1863200326
 GameObject:
   m_ObjectHideFlags: 0
@@ -26207,55 +25424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &2001105731
 GameObject:
   m_ObjectHideFlags: 0
@@ -26733,55 +25901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 707080074}
-  goomba1: {fileID: 1849355311}
-  goomba2: {fileID: 236095917}
-  goomba3: {fileID: 2000834086}
-  goomba4: {fileID: 259949620}
-  goomba5: {fileID: 822042215}
-  goomba6: {fileID: 427328890}
-  goomba7: {fileID: 383373617}
-  goomba8: {fileID: 1672188590}
-  goomba9: {fileID: 1796753108}
-  goomba10: {fileID: 1189689576}
-  goomba11: {fileID: 1204176946}
-  goomba12: {fileID: 1777089275}
-  goomba13: {fileID: 2051728091}
-  goomba14: {fileID: 1780311652}
-  goomba15: {fileID: 1788384159}
-  goombaRB: {fileID: 707080076}
-  goomba1RB: {fileID: 1849355313}
-  goomba2RB: {fileID: 236095919}
-  goomba3RB: {fileID: 2000834088}
-  goomba4RB: {fileID: 259949622}
-  goomba5RB: {fileID: 822042217}
-  goomba6RB: {fileID: 427328892}
-  goomba7RB: {fileID: 383373619}
-  goomba8RB: {fileID: 1672188592}
-  goomba9RB: {fileID: 1796753110}
-  goomba10RB: {fileID: 1189689578}
-  goomba11RB: {fileID: 1204176948}
-  goomba12RB: {fileID: 1777089277}
-  goomba13RB: {fileID: 2051728093}
-  goomba14RB: {fileID: 1780311654}
-  goomba15RB: {fileID: 1788384161}
-  goombaWalkSpeed: 1.5
-  goombaWalkLeft: 0
-  goomba1WalkLeft: 0
-  goomba2WalkLeft: 0
-  goomba3WalkLeft: 0
-  goomba4WalkLeft: 0
-  goomba5WalkLeft: 0
-  goomba6WalkLeft: 0
-  goomba7WalkLeft: 0
-  goomba8WalkLeft: 0
-  goomba9WalkLeft: 0
-  goomba10WalkLeft: 0
-  goomba11WalkLeft: 0
-  goomba12WalkLeft: 0
-  goomba13WalkLeft: 0
-  goomba14WalkLeft: 0
-  goomba15WalkLeft: 0
 --- !u!1 &2071778049
 GameObject:
   m_ObjectHideFlags: 0
