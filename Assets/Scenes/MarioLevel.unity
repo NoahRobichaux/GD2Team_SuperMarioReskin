@@ -2433,39 +2433,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -2959,39 +2959,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -4675,39 +4675,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -5043,39 +5043,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -9596,39 +9596,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -10814,39 +10814,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -14853,39 +14853,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -15221,39 +15221,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -20046,39 +20046,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -22578,39 +22578,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -22946,39 +22946,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -23156,39 +23156,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -23366,39 +23366,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -24682,39 +24682,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -26156,39 +26156,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -26682,39 +26682,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goomba: {fileID: 0}
-  goomba1: {fileID: 0}
-  goomba2: {fileID: 0}
-  goomba3: {fileID: 0}
-  goomba4: {fileID: 0}
-  goomba5: {fileID: 0}
-  goomba6: {fileID: 0}
-  goomba7: {fileID: 0}
-  goomba8: {fileID: 0}
-  goomba9: {fileID: 0}
-  goomba10: {fileID: 0}
-  goomba11: {fileID: 0}
-  goomba12: {fileID: 0}
-  goomba13: {fileID: 0}
-  goomba14: {fileID: 0}
-  goomba15: {fileID: 0}
-  goombaRB: {fileID: 0}
-  goomba1RB: {fileID: 0}
-  goomba2RB: {fileID: 0}
-  goomba3RB: {fileID: 0}
-  goomba4RB: {fileID: 0}
-  goomba5RB: {fileID: 0}
-  goomba6RB: {fileID: 0}
-  goomba7RB: {fileID: 0}
-  goomba8RB: {fileID: 0}
-  goomba9RB: {fileID: 0}
-  goomba10RB: {fileID: 0}
-  goomba11RB: {fileID: 0}
-  goomba12RB: {fileID: 0}
-  goomba13RB: {fileID: 0}
-  goomba14RB: {fileID: 0}
-  goomba15RB: {fileID: 0}
-  goombaWalkSpeed: 0
+  goomba: {fileID: 707080074}
+  goomba1: {fileID: 1849355311}
+  goomba2: {fileID: 236095917}
+  goomba3: {fileID: 2000834086}
+  goomba4: {fileID: 259949620}
+  goomba5: {fileID: 822042215}
+  goomba6: {fileID: 427328890}
+  goomba7: {fileID: 383373617}
+  goomba8: {fileID: 1672188590}
+  goomba9: {fileID: 1796753108}
+  goomba10: {fileID: 1189689576}
+  goomba11: {fileID: 1204176946}
+  goomba12: {fileID: 1777089275}
+  goomba13: {fileID: 2051728091}
+  goomba14: {fileID: 1780311652}
+  goomba15: {fileID: 1788384159}
+  goombaRB: {fileID: 707080076}
+  goomba1RB: {fileID: 1849355313}
+  goomba2RB: {fileID: 236095919}
+  goomba3RB: {fileID: 2000834088}
+  goomba4RB: {fileID: 259949622}
+  goomba5RB: {fileID: 822042217}
+  goomba6RB: {fileID: 427328892}
+  goomba7RB: {fileID: 383373619}
+  goomba8RB: {fileID: 1672188592}
+  goomba9RB: {fileID: 1796753110}
+  goomba10RB: {fileID: 1189689578}
+  goomba11RB: {fileID: 1204176948}
+  goomba12RB: {fileID: 1777089277}
+  goomba13RB: {fileID: 2051728093}
+  goomba14RB: {fileID: 1780311654}
+  goomba15RB: {fileID: 1788384161}
+  goombaWalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
