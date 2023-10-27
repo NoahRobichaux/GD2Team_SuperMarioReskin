@@ -2282,9 +2282,9 @@ GameObject:
   m_Component:
   - component: {fileID: 236095918}
   - component: {fileID: 236095921}
-  - component: {fileID: 236095920}
   - component: {fileID: 236095919}
   - component: {fileID: 236095922}
+  - component: {fileID: 236095923}
   m_Layer: 0
   m_Name: Goomba (2)
   m_TagString: Goomba
@@ -2301,8 +2301,8 @@ Transform:
   m_GameObject: {fileID: 236095917}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.0327, y: -0.13585, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalPosition: {x: 9.0327, y: -0.093, z: 0.098647}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -2334,41 +2334,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &236095920
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 236095917}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &236095921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2410,7 +2375,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2482,6 +2447,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &236095923
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236095917}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000076293945, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &253935556
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,9 +2808,9 @@ GameObject:
   m_Component:
   - component: {fileID: 259949621}
   - component: {fileID: 259949624}
-  - component: {fileID: 259949623}
   - component: {fileID: 259949622}
   - component: {fileID: 259949625}
+  - component: {fileID: 259949626}
   m_Layer: 0
   m_Name: Goomba (4)
   m_TagString: Goomba
@@ -2828,7 +2828,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19.16, y: 3.0469, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -2860,41 +2860,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &259949623
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259949620}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &259949624
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2936,7 +2901,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3008,6 +2973,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &259949626
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259949620}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000030994415, y: 0}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &269491187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4524,9 +4524,9 @@ GameObject:
   m_Component:
   - component: {fileID: 383373618}
   - component: {fileID: 383373621}
-  - component: {fileID: 383373620}
   - component: {fileID: 383373619}
   - component: {fileID: 383373622}
+  - component: {fileID: 383373623}
   m_Layer: 0
   m_Name: Goomba (7)
   m_TagString: Goomba
@@ -4544,7 +4544,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 26.242, y: -0.11611, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -4576,41 +4576,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &383373620
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383373617}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &383373621
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4652,7 +4617,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4724,6 +4689,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &383373623
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383373617}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.000019073486, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &392284899
 GameObject:
   m_ObjectHideFlags: 0
@@ -4892,9 +4892,9 @@ GameObject:
   m_Component:
   - component: {fileID: 427328891}
   - component: {fileID: 427328894}
-  - component: {fileID: 427328893}
   - component: {fileID: 427328892}
   - component: {fileID: 427328895}
+  - component: {fileID: 427328896}
   m_Layer: 0
   m_Name: Goomba (6)
   m_TagString: Goomba
@@ -4912,7 +4912,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 25.623, y: -0.11611, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -4944,41 +4944,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &427328893
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 427328890}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &427328894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5020,7 +4985,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5092,6 +5057,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &427328896
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427328890}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000076293945, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &430927789
 GameObject:
   m_ObjectHideFlags: 0
@@ -9445,9 +9445,9 @@ GameObject:
   m_Component:
   - component: {fileID: 707080075}
   - component: {fileID: 707080078}
-  - component: {fileID: 707080077}
   - component: {fileID: 707080076}
   - component: {fileID: 707080079}
+  - component: {fileID: 707080080}
   m_Layer: 0
   m_Name: Goomba
   m_TagString: Goomba
@@ -9464,8 +9464,8 @@ Transform:
   m_GameObject: {fileID: 707080074}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5173, y: -0.10623, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalPosition: {x: -2.87, y: -0.108, z: 0.0986}
+  m_LocalScale: {x: 0.107678376, y: 0.10379042, z: 0.30506346}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -9497,41 +9497,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &707080077
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707080074}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &707080078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9573,7 +9538,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -9645,6 +9610,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &707080080
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707080074}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.029482493, y: -0.000015160924}
+  m_Size: {x: 1.8538276, y: 3.58}
+  m_Direction: 0
 --- !u!1 &712941131
 GameObject:
   m_ObjectHideFlags: 0
@@ -10663,9 +10663,9 @@ GameObject:
   m_Component:
   - component: {fileID: 822042216}
   - component: {fileID: 822042219}
-  - component: {fileID: 822042218}
   - component: {fileID: 822042217}
   - component: {fileID: 822042220}
+  - component: {fileID: 822042221}
   m_Layer: 0
   m_Name: Goomba (5)
   m_TagString: Goomba
@@ -10683,7 +10683,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19.931, y: 3.0636, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -10715,41 +10715,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &822042218
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 822042215}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &822042219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10791,7 +10756,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -10863,6 +10828,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &822042221
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822042215}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.000008106232, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &845772803
 GameObject:
   m_ObjectHideFlags: 0
@@ -14702,9 +14702,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1189689577}
   - component: {fileID: 1189689580}
-  - component: {fileID: 1189689579}
   - component: {fileID: 1189689578}
   - component: {fileID: 1189689581}
+  - component: {fileID: 1189689582}
   m_Layer: 0
   m_Name: Goomba (10)
   m_TagString: Goomba
@@ -14722,7 +14722,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 35.944, y: -0.10623, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -14754,41 +14754,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1189689579
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1189689576}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1189689580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14830,7 +14795,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14902,6 +14867,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1189689582
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189689576}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1202684315
 GameObject:
   m_ObjectHideFlags: 0
@@ -15070,9 +15070,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1204176947}
   - component: {fileID: 1204176950}
-  - component: {fileID: 1204176949}
   - component: {fileID: 1204176948}
   - component: {fileID: 1204176951}
+  - component: {fileID: 1204176952}
   m_Layer: 0
   m_Name: Goomba (11)
   m_TagString: Goomba
@@ -15090,7 +15090,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 36.543, y: -0.076604, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -15122,41 +15122,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1204176949
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1204176946}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1204176950
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15198,7 +15163,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -15270,6 +15235,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1204176952
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204176946}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.000015258789, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1211831371
 GameObject:
   m_ObjectHideFlags: 0
@@ -17486,6 +17486,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1470897112
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -78.916
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.571
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_Name
+      value: Mario
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 908b189607f928148aabbddf90307287, type: 3}
 --- !u!1 &1475118610
 GameObject:
   m_ObjectHideFlags: 0
@@ -17802,63 +17859,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1490474901
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -78.81
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 43.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_Name
-      value: Mario
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 908b189607f928148aabbddf90307287, type: 3}
 --- !u!1 &1491769599
 GameObject:
   m_ObjectHideFlags: 0
@@ -19886,9 +19886,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1672188591}
   - component: {fileID: 1672188594}
-  - component: {fileID: 1672188593}
   - component: {fileID: 1672188592}
   - component: {fileID: 1672188595}
+  - component: {fileID: 1672188596}
   m_Layer: 0
   m_Name: Goomba (8)
   m_TagString: Goomba
@@ -19906,7 +19906,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 32.133, y: -0.10623, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -19938,41 +19938,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1672188593
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1672188590}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1672188594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20014,7 +19979,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20086,6 +20051,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1672188596
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672188590}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0000076293945, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1685579368
 GameObject:
   m_ObjectHideFlags: 0
@@ -22418,9 +22418,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1777089276}
   - component: {fileID: 1777089279}
-  - component: {fileID: 1777089278}
   - component: {fileID: 1777089277}
   - component: {fileID: 1777089280}
+  - component: {fileID: 1777089281}
   m_Layer: 0
   m_Name: Goomba (12)
   m_TagString: Goomba
@@ -22438,7 +22438,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 37.551, y: -0.076604, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -22470,41 +22470,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1777089278
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1777089275}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1777089279
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22546,7 +22511,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22618,6 +22583,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1777089281
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777089275}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1778859892
 GameObject:
   m_ObjectHideFlags: 0
@@ -22786,9 +22786,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1780311653}
   - component: {fileID: 1780311656}
-  - component: {fileID: 1780311655}
   - component: {fileID: 1780311654}
   - component: {fileID: 1780311657}
+  - component: {fileID: 1780311658}
   m_Layer: 0
   m_Name: Goomba (14)
   m_TagString: Goomba
@@ -22806,7 +22806,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 54.83, y: -0.11314, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -22838,41 +22838,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1780311655
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1780311652}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1780311656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22914,7 +22879,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -22986,6 +22951,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1780311658
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780311652}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1788384159
 GameObject:
   m_ObjectHideFlags: 0
@@ -22996,9 +22996,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1788384160}
   - component: {fileID: 1788384163}
-  - component: {fileID: 1788384162}
   - component: {fileID: 1788384161}
   - component: {fileID: 1788384164}
+  - component: {fileID: 1788384165}
   m_Layer: 0
   m_Name: Goomba (15)
   m_TagString: Goomba
@@ -23016,7 +23016,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 55.443, y: -0.12203, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -23048,41 +23048,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1788384162
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1788384159}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1788384163
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23124,7 +23089,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -23196,6 +23161,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1788384165
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788384159}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.000030517578, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1796753108
 GameObject:
   m_ObjectHideFlags: 0
@@ -23206,9 +23206,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1796753109}
   - component: {fileID: 1796753112}
-  - component: {fileID: 1796753111}
   - component: {fileID: 1796753110}
   - component: {fileID: 1796753113}
+  - component: {fileID: 1796753114}
   m_Layer: 0
   m_Name: Goomba (9)
   m_TagString: Goomba
@@ -23226,7 +23226,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 32.763, y: -0.10623, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -23258,41 +23258,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1796753111
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1796753108}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1796753112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23334,7 +23299,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -23406,6 +23371,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1796753114
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796753108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000076293945, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1797041504
 GameObject:
   m_ObjectHideFlags: 0
@@ -24522,9 +24522,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1849355312}
   - component: {fileID: 1849355315}
-  - component: {fileID: 1849355314}
   - component: {fileID: 1849355313}
   - component: {fileID: 1849355316}
+  - component: {fileID: 1849355317}
   m_Layer: 0
   m_Name: Goomba (1)
   m_TagString: Goomba
@@ -24541,8 +24541,8 @@ Transform:
   m_GameObject: {fileID: 1849355311}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.8537, y: -0.13585, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalPosition: {x: 4.873, y: -0.105, z: 0.098647}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -24574,41 +24574,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &1849355314
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1849355311}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &1849355315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24650,7 +24615,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -24722,6 +24687,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &1849355317
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849355311}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &1863200326
 GameObject:
   m_ObjectHideFlags: 0
@@ -25996,9 +25996,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2000834087}
   - component: {fileID: 2000834090}
-  - component: {fileID: 2000834089}
   - component: {fileID: 2000834088}
   - component: {fileID: 2000834091}
+  - component: {fileID: 2000834092}
   m_Layer: 0
   m_Name: Goomba (3)
   m_TagString: Goomba
@@ -26016,7 +26016,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 9.7467, y: -0.11611, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -26048,41 +26048,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &2000834089
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000834086}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &2000834090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26124,7 +26089,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -26196,6 +26161,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &2000834092
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000834086}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0000076293945, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &2001105731
 GameObject:
   m_ObjectHideFlags: 0
@@ -26522,9 +26522,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2051728092}
   - component: {fileID: 2051728095}
-  - component: {fileID: 2051728094}
   - component: {fileID: 2051728093}
   - component: {fileID: 2051728096}
+  - component: {fileID: 2051728097}
   m_Layer: 0
   m_Name: Goomba (13)
   m_TagString: Goomba
@@ -26542,7 +26542,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 38.086, y: -0.086479, z: 0.098647}
-  m_LocalScale: {x: 0.3529704, y: 0.34022567, z: 1}
+  m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1102097784}
@@ -26574,41 +26574,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!58 &2051728094
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051728091}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
 --- !u!212 &2051728095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26650,7 +26615,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 130c3937c9c929745b93a84150960f27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -26722,6 +26687,41 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+--- !u!70 &2051728097
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051728091}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.000015258789}
+  m_Size: {x: 1.9599998, y: 3.58}
+  m_Direction: 0
 --- !u!1 &2071778049
 GameObject:
   m_ObjectHideFlags: 0
@@ -28353,4 +28353,4 @@ SceneRoots:
   - {fileID: 2113081413}
   - {fileID: 149035044}
   - {fileID: 746549136}
-  - {fileID: 1490474901}
+  - {fileID: 1470897112}
