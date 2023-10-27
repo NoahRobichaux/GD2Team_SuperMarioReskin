@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 5516273061604097975}
   - component: {fileID: 4610011258375742094}
   - component: {fileID: 3156341182367849244}
-  - component: {fileID: 8866402254191659490}
+  - component: {fileID: 455243973977527377}
   m_Layer: 0
   m_Name: Mario
   m_TagString: Player
@@ -122,8 +122,8 @@ Transform:
   m_GameObject: {fileID: 7102567438669882162}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.67, y: -1.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 13.8455, y: -8.949, z: 0}
+  m_LocalScale: {x: 0.13030906, y: 0.13030906, z: 0.13030906}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1771649534653845234}
@@ -170,7 +170,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3f5ca3af65dae8540973e97923ced4e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -241,8 +241,8 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 59fe61da8f557844db2237b96ccb1ac4, type: 2}
---- !u!58 &8866402254191659490
-CircleCollider2D:
+--- !u!70 &455243973977527377
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -273,6 +273,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.5
+  m_Offset: {x: -0.0000036592787, y: -0.6476594}
+  m_Size: {x: 8.416978, y: 15.189614}
+  m_Direction: 0

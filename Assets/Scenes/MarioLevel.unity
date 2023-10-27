@@ -17802,6 +17802,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1490474901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -78.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_Name
+      value: Mario
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 908b189607f928148aabbddf90307287, type: 3}
 --- !u!1 &1491769599
 GameObject:
   m_ObjectHideFlags: 0
@@ -18118,72 +18175,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1518466741
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4610011258375742094, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"speed","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canJump","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"canMove","value":{"$content":true,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"levelEnd","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isTouchingFlagpoleBase","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -78.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 42.64
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5237322233572805972, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
-      propertyPath: m_Name
-      value: Mario
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 908b189607f928148aabbddf90307287, type: 3}
 --- !u!1 &1519206657
 GameObject:
   m_ObjectHideFlags: 0
@@ -28361,5 +28352,5 @@ SceneRoots:
   - {fileID: 53289043}
   - {fileID: 2113081413}
   - {fileID: 149035044}
-  - {fileID: 1518466741}
   - {fileID: 746549136}
+  - {fileID: 1490474901}
