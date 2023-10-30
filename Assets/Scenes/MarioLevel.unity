@@ -151,8 +151,8 @@ Transform:
   m_GameObject: {fileID: 38475357}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.5286, y: -0.71924, z: 0.012868}
-  m_LocalScale: {x: 5.25, y: 0.72033006, z: 1}
+  m_LocalPosition: {x: 1.5286, y: -0.71924, z: 0}
+  m_LocalScale: {x: 5.25, y: 0.72033, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1389731539}
@@ -2301,7 +2301,7 @@ Transform:
   m_GameObject: {fileID: 236095917}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.0327, y: -0.093, z: 0.098647}
+  m_LocalPosition: {x: 9.0327, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2319,7 +2319,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2333,7 +2333,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &236095921
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2431,6 +2431,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -2827,7 +2842,7 @@ Transform:
   m_GameObject: {fileID: 259949620}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.16, y: 3.0469, z: 0.098647}
+  m_LocalPosition: {x: 19.16, y: 3.0469, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2845,7 +2860,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.5083342
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2859,7 +2874,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &259949624
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2957,6 +2972,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -4543,7 +4573,7 @@ Transform:
   m_GameObject: {fileID: 383373617}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.242, y: -0.11611, z: 0.098647}
+  m_LocalPosition: {x: 26.242, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4561,7 +4591,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4575,7 +4605,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &383373621
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4673,6 +4703,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -4911,7 +4956,7 @@ Transform:
   m_GameObject: {fileID: 427328890}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 25.623, y: -0.11611, z: 0.098647}
+  m_LocalPosition: {x: 25.623, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4929,7 +4974,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4943,7 +4988,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &427328894
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5041,6 +5086,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -6054,7 +6114,7 @@ GameObject:
   - component: {fileID: 474713708}
   m_Layer: 0
   m_Name: Pipe(T) (2)
-  m_TagString: Pipe
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9464,7 +9524,7 @@ Transform:
   m_GameObject: {fileID: 707080074}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.87, y: -0.108, z: 0.0986}
+  m_LocalPosition: {x: -2.87, y: 0, z: 0}
   m_LocalScale: {x: 0.107678376, y: 0.10379042, z: 0.30506346}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9482,7 +9542,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.48425013
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -9496,7 +9556,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &707080078
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9594,6 +9654,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -10682,7 +10757,7 @@ Transform:
   m_GameObject: {fileID: 822042215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.931, y: 3.0636, z: 0.098647}
+  m_LocalPosition: {x: 19.931, y: 3.0636, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10700,7 +10775,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -10714,7 +10789,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &822042219
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10812,6 +10887,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -12141,7 +12231,7 @@ GameObject:
   - component: {fileID: 943041504}
   m_Layer: 0
   m_Name: Pipe(T)
-  m_TagString: Pipe
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12313,8 +12403,8 @@ Transform:
   m_GameObject: {fileID: 943412165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.554, y: -0.71924, z: 0.012868}
-  m_LocalScale: {x: 25.58912, y: 0.72033006, z: 1}
+  m_LocalPosition: {x: 42.554, y: -0.71924, z: 0}
+  m_LocalScale: {x: 25.58912, y: 0.72033, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1389731539}
@@ -14196,7 +14286,7 @@ Transform:
   m_GameObject: {fileID: 1102097783}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -51.836002, y: 42.858, z: 0.99703}
+  m_LocalPosition: {x: -51.836002, y: 42.858, z: 0}
   m_LocalScale: {x: 2.654981, y: 2.7651587, z: 1.1326}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14721,7 +14811,7 @@ Transform:
   m_GameObject: {fileID: 1189689576}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 35.944, y: -0.10623, z: 0.098647}
+  m_LocalPosition: {x: 35.944, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14739,7 +14829,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -14753,7 +14843,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1189689580
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14851,6 +14941,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -15089,7 +15194,7 @@ Transform:
   m_GameObject: {fileID: 1204176946}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 36.543, y: -0.076604, z: 0.098647}
+  m_LocalPosition: {x: 36.543, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15107,7 +15212,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -15121,7 +15226,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1204176950
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15219,6 +15324,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -16830,7 +16950,7 @@ GameObject:
   - component: {fileID: 1389731539}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17040,8 +17160,8 @@ Transform:
   m_GameObject: {fileID: 1392429856}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.845, y: -0.71924, z: 0.012868}
-  m_LocalScale: {x: 24.213778, y: 0.72033006, z: 1}
+  m_LocalPosition: {x: 16.845, y: -0.71924, z: 0}
+  m_LocalScale: {x: 24.213778, y: 0.72033, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1389731539}
@@ -18951,7 +19071,7 @@ GameObject:
   - component: {fileID: 1645654079}
   m_Layer: 0
   m_Name: Pipe(T) (1)
-  m_TagString: Pipe
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19914,7 +20034,7 @@ Transform:
   m_GameObject: {fileID: 1672188590}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.133, y: -0.10623, z: 0.098647}
+  m_LocalPosition: {x: 32.133, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19932,7 +20052,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -19946,7 +20066,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1672188594
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20044,6 +20164,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -21167,7 +21302,7 @@ GameObject:
   - component: {fileID: 1732808664}
   m_Layer: 0
   m_Name: Pipe(T) (4)
-  m_TagString: Pipe
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21463,7 +21598,7 @@ Transform:
   m_GameObject: {fileID: 1738859490}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.126, y: -0.71924, z: 0.012868}
+  m_LocalPosition: {x: -15.126, y: -0.71924, z: 0}
   m_LocalScale: {x: 26.385735, y: 0.72033, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22446,7 +22581,7 @@ Transform:
   m_GameObject: {fileID: 1777089275}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.551, y: -0.076604, z: 0.098647}
+  m_LocalPosition: {x: 37.551, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22464,7 +22599,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -22478,7 +22613,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1777089279
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22576,6 +22711,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -22814,7 +22964,7 @@ Transform:
   m_GameObject: {fileID: 1780311652}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 54.83, y: -0.11314, z: 0.098647}
+  m_LocalPosition: {x: 54.83, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22832,7 +22982,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -22846,7 +22996,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1780311656
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22944,6 +23094,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -23024,7 +23189,7 @@ Transform:
   m_GameObject: {fileID: 1788384159}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.443, y: -0.12203, z: 0.098647}
+  m_LocalPosition: {x: 55.443, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23042,7 +23207,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -23056,7 +23221,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1788384163
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23154,6 +23319,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -23234,7 +23414,7 @@ Transform:
   m_GameObject: {fileID: 1796753108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.763, y: -0.10623, z: 0.098647}
+  m_LocalPosition: {x: 32.763, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23252,7 +23432,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -23266,7 +23446,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1796753112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23364,6 +23544,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -24550,7 +24745,7 @@ Transform:
   m_GameObject: {fileID: 1849355311}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.873, y: -0.105, z: 0.098647}
+  m_LocalPosition: {x: 4.873, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24568,7 +24763,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -24582,7 +24777,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1849355315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24680,6 +24875,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -25535,7 +25745,7 @@ GameObject:
   - component: {fileID: 1963818022}
   m_Layer: 0
   m_Name: Pipe(T) (5)
-  m_TagString: Pipe
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26024,7 +26234,7 @@ Transform:
   m_GameObject: {fileID: 2000834086}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.7467, y: -0.11611, z: 0.098647}
+  m_LocalPosition: {x: 9.7467, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26042,7 +26252,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -26056,7 +26266,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &2000834090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26154,6 +26364,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -26550,7 +26775,7 @@ Transform:
   m_GameObject: {fileID: 2051728091}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 38.086, y: -0.086479, z: 0.098647}
+  m_LocalPosition: {x: 38.086, y: 0, z: 0}
   m_LocalScale: {x: 0.1076784, y: 0.1037904, z: 0.3050635}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26568,7 +26793,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -26582,7 +26807,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &2051728095
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -26680,6 +26905,21 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
+  goomba1WalkSpeed: 1.5
+  goomba2WalkSpeed: 1.5
+  goomba3WalkSpeed: 1.5
+  goomba4WalkSpeed: 1.5
+  goomba5WalkSpeed: 1.5
+  goomba6WalkSpeed: 1.5
+  goomba7WalkSpeed: 1.5
+  goomba8WalkSpeed: 1.5
+  goomba9WalkSpeed: 1.5
+  goomba10WalkSpeed: 1.5
+  goomba11WalkSpeed: 1.5
+  goomba12WalkSpeed: 1.5
+  goomba13WalkSpeed: 1.5
+  goomba14WalkSpeed: 1.5
+  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -26745,7 +26985,7 @@ GameObject:
   - component: {fileID: 2071778050}
   m_Layer: 0
   m_Name: Pipe(T) (3)
-  m_TagString: Pipe
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28349,8 +28589,6 @@ SpriteRenderer:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 483991607}
-  - {fileID: 1550012446}
   - {fileID: 1332967319}
   - {fileID: 1102097784}
   - {fileID: 1055238684}
@@ -28363,3 +28601,5 @@ SceneRoots:
   - {fileID: 149035044}
   - {fileID: 746549136}
   - {fileID: 1470897112}
+  - {fileID: 1550012446}
+  - {fileID: 483991607}
