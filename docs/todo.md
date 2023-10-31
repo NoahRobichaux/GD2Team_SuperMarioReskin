@@ -26,6 +26,6 @@
 > ## Level Design
 
 - [❌️] Implement block art into level
-- [❌️] Iplement all other art into level
+- [❌️] Implement all other art into level
 
 ***
