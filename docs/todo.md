@@ -43,3 +43,14 @@
 - [❌️] Implement all other art into level
 
 ***
+
+> ## All
+
+### Extras (Low Priority)
+
+- [❌️] Main menu song
+
+### Extras (High Priority)
+
+- [❌️] SFX for game actions
+- [❌️] BGM for level
