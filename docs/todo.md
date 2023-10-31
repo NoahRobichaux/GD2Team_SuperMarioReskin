@@ -22,7 +22,7 @@
 
 ### Priority
 
-- [❌️] Scale BG to span entire height of level (Noah)
+- [⭕️] Scale BG to span entire height of level (Noah)
 - [❌️] Brick art (Nathan or Scoob)
 - [❌️] ? Block art (Nathan or Scoob)
 - [❌️] Coin art (Nathan or Scoob)
