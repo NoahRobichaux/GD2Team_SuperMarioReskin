@@ -48,7 +48,7 @@
 
 ### Extras (Low Priority)
 
-- [❌️] Main menu song (Any)
+- [️⭕️] Main menu song (Any)
 
 ### Extras (High Priority)
 
