@@ -6,15 +6,15 @@
 
 ### Priority
 
-- [❌️] Goomba movement
-- [❌️] Koopa Troopa movement
-- [❌️] Goomba behavior
-- [❌️] Koopa Troopa and shell behavior
-- [❌️] Design and code UI for timer, coin counter, score, life counter, etc. 
+- [❌️] Goomba movement (Noah)
+- [❌️] Koopa Troopa movement (Noah)
+- [❌️] Goomba behavior (Noah)
+- [❌️] Koopa Troopa and shell behavior (Noah)
+- [❌️] Design and code UI for timer, coin counter, score, life counter, etc. (Noah & Abel)
 
 ### Extras
 
-- [❌️] Main menu with logo and player sprites
+- [❌️] Main menu with logo and player sprites (Noah & Abel)
 
 ***
 
@@ -22,16 +22,16 @@
 
 ### Priority
 
-- [❌️] Scale BG to span entire height of level
-- [❌️] Brick art
-- [❌️] ? Block art
-- [❌️] Coin art
+- [❌️] Scale BG to span entire height of level (Noah)
+- [❌️] Brick art (Nathan or Scoob)
+- [❌️] ? Block art (Nathan or Scoob)
+- [❌️] Coin art (Nathan or Scoob)
 
 ### Extras
 
-- [❌️] Design App Logo
-- [❌️] Design App Icon
-- [❌️] Implement art into Unity game startup animation
+- [❌️] Design App Logo (Any)
+- [❌️] Design App Icon (Any)
+- [❌️] Implement art into Unity game startup animation (Noah)
 
 ***
 
@@ -39,8 +39,8 @@
 
 ### Priority
 
-- [❌️] Implement block art into level
-- [❌️] Implement all other art into level
+- [❌️] Implement block art into level (Mohamed)
+- [❌️] Implement all other art into level (Mohamed)
 
 ***
 
@@ -48,9 +48,9 @@
 
 ### Extras (Low Priority)
 
-- [❌️] Main menu song
+- [❌️] Main menu song (Any)
 
 ### Extras (High Priority)
 
-- [❌️] SFX for game actions
-- [❌️] BGM for level
+- [❌️] SFX for game actions (Any)
+- [❌️] BGM for level (Any)
