@@ -30,7 +30,7 @@
 ### Extras
 
 - [❌️] Design App Logo (Any)
-- [❌️] Design App Icon (Any)
+- [❌️] Design App Icon (Noah)
 - [❌️] Implement art into Unity game startup animation (Noah)
 
 ***
