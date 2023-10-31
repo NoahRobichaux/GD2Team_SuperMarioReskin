@@ -7,6 +7,8 @@ TagManager:
   - Goomba
   - Ground
   - Pipe
+  - Flagpole
+  - Koopa
   layers:
   - Default
   - TransparentFX
