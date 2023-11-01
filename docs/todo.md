@@ -6,11 +6,11 @@
 
 ### Priority
 
+- [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Abel)
 - [❌️] Goomba movement (Noah)
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
-- [❌️] Code UI for timer, coin counter, score, life counter, etc. (Noah & Abel)
 
 ### Extras
 
@@ -26,10 +26,10 @@
 
 - [⭕️] Scale BG to span entire height of level (Noah)
 - [⭕️] Design UI (Noah)
-- [❌️] Brick art (Nathan or Scoob)
-- [❌️] ? Block art (Nathan or Scoob)
-- [❌️] Coin art (Noah)
-- [❌️] Pipe art (Nathan or Scoob)
+- [⭕️] Coin art (Noah)
+- [❌️] Brick art (Nathan or Michael)
+- [❌️] ? Block art (Nathan or Michael)
+- [❌️] Pipe art (Nathan or Michael)
 - [❌️] Ground art (Noah)
 - [❌️] Button for menus (Noah)
 
