@@ -6,7 +6,6 @@
 
 ### Priority
 
-- [⭕️] Design UI (Noah)
 - [❌️] Goomba movement (Noah)
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
@@ -29,7 +28,7 @@
 - [⭕️] Design UI (Noah)
 - [❌️] Brick art (Nathan or Scoob)
 - [❌️] ? Block art (Nathan or Scoob)
-- [❌️] Coin art (Nathan or Scoob)
+- [❌️] Coin art (Noah)
 - [❌️] Pipe art (Nathan or Scoob)
 - [❌️] Ground art (Noah)
 - [❌️] Button for menus (Noah)
