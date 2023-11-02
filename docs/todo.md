@@ -16,7 +16,7 @@
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
-- [❌️] Code Krabby Patty powerup (Abel)
+- [❌️] Implement Mushroom script into Krabby Patty powerup (Abel)
 
 > _Make the Krabby Patty function like the Super Mushroom in Mario, 
 > revert the player sprite to the small state upon enemy collision from the sides and
@@ -45,6 +45,9 @@
 - [❌️] Ground art (Noah)
 - [❌️] Button for menus (Noah)
 - [❌️] Krabby Patty sprite (Nathan or Michael)
+
+> _PNGs go in "Custom Sprites", 
+> PSDs go in "Other"_
 
 ### Extras
 
