@@ -2,6 +2,11 @@
 
 ***
 
+> ❌️ = Incomplete
+> ️⭕️ = Complete
+
+***
+
 > ## Programming
 
 ### Priority
@@ -11,6 +16,13 @@
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
+- [❌️] Code Krabby Patty powerup (Abel)
+
+> _Make the Krabby Patty function like the Super Mushroom in Mario, 
+> revert the player sprite to the small state upon enemy collision from the sides and
+> grow to super size when the player enters the patty's trigger collider.
+> Also, Squiward needs to be in small form upon level load, he can
+> only be Super Squidward when "eating" a Krabby Patty._
 
 ### Extras
 
@@ -32,6 +44,7 @@
 - [❌️] Pipe art (Nathan or Michael)
 - [❌️] Ground art (Noah)
 - [❌️] Button for menus (Noah)
+- [❌️] Krabby Patty sprite (Nathan or Michael)
 
 ### Extras
 
