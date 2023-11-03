@@ -75,5 +75,5 @@
 
 ### Extras (High Priority)
 
-- [❌️] SFX for game actions (Noah)
-- [❌️] BGM for level (Noah)
+- [❌️] SFX for game actions (Noah & Abel)
+- [❌️] BGM for level (Any)
