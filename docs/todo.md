@@ -3,6 +3,7 @@
 ***
 
 > ❌️ = Incomplete
+> 
 > ️⭕️ = Complete
 
 ***
@@ -26,9 +27,9 @@
 
 ### Extras
 
-- [❌️] Main menu with logo and player sprites (Noah & Abel)
-- [❌️] Fix camera boundaries and colliders (Noah or Abel)
-- [❌️] Program SFX for game actions (Noah or Abel)
+- [⭕️] Main menu with logo and player sprites (Noah)
+- [⭕️] Fix camera boundaries and colliders (Noah & Abel)
+- [❌️] Program SFX for game actions (Abel)
 
 ***
 
@@ -39,11 +40,11 @@
 - [⭕️] Scale BG to span entire height of level (Noah)
 - [⭕️] Design UI (Noah)
 - [⭕️] Coin art (Noah)
+- [⭕️] Button for menus (Noah)
 - [❌️] Brick art (Nathan or Michael)
 - [❌️] ? Block art (Nathan or Michael)
 - [❌️] Pipe art (Nathan or Michael)
 - [❌️] Ground art (Noah)
-- [❌️] Button for menus (Noah)
 - [❌️] Krabby Patty sprite (Nathan or Michael)
 
 > _PNGs go in "Custom Sprites", 
@@ -52,8 +53,8 @@
 ### Extras
 
 - [⭕️] Design App Icon (Noah)
-- [❌️] Design App Logo (Noah)
-- [❌️] Implement art into Unity game startup animation (Noah)
+- [⭕️] Design App Logo (Noah)
+- [⭕️] Implement art into Unity game startup animation (Noah)
 
 ***
 
