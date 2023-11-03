@@ -13,6 +13,7 @@
 ### Priority
 
 - [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Abel)
+- [❌️] Fix script compilation errors to make game buildable for playtesting (Noah & Abel)
 - [❌️] Goomba movement (Noah)
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
