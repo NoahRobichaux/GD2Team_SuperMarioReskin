@@ -9,7 +9,10 @@ public class MainMenu : MonoBehaviour
 {
     public Button playButton;
     public Button exitButton;
+    public GameObject buttonSFX;
 
+    //Make sure to play the sfx before all other functions on click
+	
     public static void LoadScene(int sceneBuildIndex)
     {
         SceneManager.LoadScene(sceneBuildIndex);
@@ -18,5 +21,10 @@ public class MainMenu : MonoBehaviour
     public static void QuitGame()
     {
         Application.Quit();
+    }
+	 
+    public static void ButtonSFX()
+    {
+        buttonSFX.SetActive(true);
     }
 }
