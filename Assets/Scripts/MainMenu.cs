@@ -23,7 +23,7 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 	 
-    public static void ButtonSFX()
+    public void ButtonSFX()
     {
         buttonSFX.SetActive(true);
     }
