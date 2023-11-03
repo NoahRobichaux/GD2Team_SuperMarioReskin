@@ -12,10 +12,10 @@ public class MainMenu : MonoBehaviour
 
     public static void LoadScene(int sceneBuildIndex)
     {
-        SceneManager.LoadSceneAsync(sceneBuildIndex);
+        SceneManager.LoadScene(sceneBuildIndex);
     }
 
-    public void QuitGame()
+    public static void QuitGame()
     {
         Application.Quit();
     }
