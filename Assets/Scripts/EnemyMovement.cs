@@ -57,22 +57,22 @@ public class EnemyMovement : MonoBehaviour
     public float goomba14WalkSpeed;
     public float goomba15WalkSpeed;
 
-    public bool goombaWalkLeft;
-    public bool goomba1WalkLeft;
-    public bool goomba2WalkLeft;
-    public bool goomba3WalkLeft;
-    public bool goomba4WalkLeft;
-    public bool goomba5WalkLeft;
-    public bool goomba6WalkLeft;
-    public bool goomba7WalkLeft;
-    public bool goomba8WalkLeft;
-    public bool goomba9WalkLeft;
-    public bool goomba10WalkLeft;
-    public bool goomba11WalkLeft;
-    public bool goomba12WalkLeft;
-    public bool goomba13WalkLeft;
-    public bool goomba14WalkLeft;
-    public bool goomba15WalkLeft;
+    public bool goombaWalkLeft = true;
+    public bool goomba1WalkLeft = true;
+    public bool goomba2WalkLeft = true;
+    public bool goomba3WalkLeft = true;
+    public bool goomba4WalkLeft = true;
+    public bool goomba5WalkLeft = true;
+    public bool goomba6WalkLeft = true;
+    public bool goomba7WalkLeft = true;
+    public bool goomba8WalkLeft = true;
+    public bool goomba9WalkLeft = true;
+    public bool goomba10WalkLeft = true;
+    public bool goomba11WalkLeft = true;
+    public bool goomba12WalkLeft = true;
+    public bool goomba13WalkLeft = true;
+    public bool goomba14WalkLeft = true;
+    public bool goomba15WalkLeft = true;
 
     // Start is called before the first frame update
     void Start()
@@ -117,22 +117,7 @@ public class EnemyMovement : MonoBehaviour
 
     void Active()
     {
-        goombaWalkLeft = true;
-        goomba1WalkLeft = true;
-        goomba2WalkLeft = true;
-        goomba3WalkLeft = true;
-        goomba4WalkLeft = true;
-        goomba5WalkLeft = true;
-        goomba6WalkLeft = true;
-        goomba7WalkLeft = true;
-        goomba8WalkLeft = true;
-        goomba9WalkLeft = true;
-        goomba10WalkLeft = true;
-        goomba11WalkLeft = true;
-        goomba12WalkLeft = true;
-        goomba13WalkLeft = true;
-        goomba14WalkLeft = true;
-        goomba15WalkLeft = true;
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
