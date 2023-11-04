@@ -13,12 +13,15 @@
 ### Priority
 
 - [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Abel)
-- [❌️] Fix script compilation errors to make game buildable for playtesting (Noah & Abel)
+- [️⭕️] Fix script compilation errors to make game buildable for playtesting (Noah & Abel)
 - [❌️] Goomba movement (Noah)
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
 - [❌️] Implement Mushroom script into Krabby Patty powerup (Abel)
+- [❌️] Fix DeathBox script (Noah)
+- [❌️] Fix coin and score counters (Noah)
+- [❌️] Fix ? block behavior (Noah & Abel)
 
 > _Make the Krabby Patty function like the Super Mushroom in Mario, 
 > revert the player sprite to the small state upon enemy collision from the sides and
@@ -30,7 +33,7 @@
 
 - [⭕️] Main menu with logo and player sprites (Noah)
 - [⭕️] Fix camera boundaries and colliders (Noah & Abel)
-- [❌️] Program SFX for game actions (Abel)
+- [❌️] Program SFX for game actions (Noah & Abel)
 
 ***
 
@@ -42,10 +45,10 @@
 - [⭕️] Design UI (Noah)
 - [⭕️] Coin art (Noah)
 - [⭕️] Button for menus (Noah)
+- [️⭕️] Ground art (Noah)
 - [❌️] Brick art (Nathan or Michael)
 - [❌️] ? Block art (Nathan or Michael)
 - [❌️] Pipe art (Nathan or Michael)
-- [❌️] Ground art (Noah)
 - [❌️] Krabby Patty sprite (Nathan or Michael)
 
 > _PNGs go in "Custom Sprites", 
@@ -76,5 +79,5 @@
 
 ### Extras (High Priority)
 
-- [❌️] SFX for game actions (Noah & Abel)
-- [❌️] BGM for level (Any)
+- [❌️] Find SFX for game actions (Any)
+- [❌️] Find BGM for level (Any)
