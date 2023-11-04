@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerController2 : MonoBehaviour
 {
-    
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +14,15 @@ public class PlayerController2 : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Goomba")
+        {
+            DeathBox.deathText.SetActive(true);
+            DeathBox.deathSFX.SetActive(true);
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {

@@ -78,7 +78,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlockHit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount ++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -86,7 +86,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock1Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount ++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -94,7 +94,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock2Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -102,7 +102,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock3Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -110,7 +110,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock4Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -118,7 +118,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock5Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -126,7 +126,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock6Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -134,7 +134,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock7Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -142,7 +142,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock8Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -150,7 +150,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock9Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -158,7 +158,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock10Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
@@ -166,7 +166,7 @@ public class SpongeDollars : MonoBehaviour
         if (collision.gameObject.tag == "Player" && isBlock11Hit == false)
         {
             score += 100;
-            coinCount += 1;
+            coinCount++;
             scoreText.SetText("" + score);
             coinCounter.SetText("x " + coinCount);
         }
