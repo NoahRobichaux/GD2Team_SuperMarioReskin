@@ -14,14 +14,14 @@
 
 - [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Abel)
 - [️⭕️] Fix script compilation errors to make game buildable for playtesting (Noah & Abel)
+- [️⭕️] Fix DeathBox script (Noah)
+- [️⭕️] Fix coin and score counters (Noah)
+- [️⭕️] Fix ? block behavior (Noah)
 - [❌️] Goomba movement (Noah)
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
 - [❌️] Implement Mushroom script into Krabby Patty powerup (Abel)
-- [❌️] Fix DeathBox script (Noah)
-- [❌️] Fix coin and score counters (Noah)
-- [❌️] Fix ? block behavior (Noah & Abel)
 
 > _Make the Krabby Patty function like the Super Mushroom in Mario, 
 > revert the player sprite to the small state upon enemy collision from the sides and
