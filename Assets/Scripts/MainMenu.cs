@@ -14,6 +14,7 @@ public class MainMenu : MonoBehaviour
 	
     public static void LoadScene(int sceneBuildIndex)
     {
+        SpongeDollars.lifeCount = 3;
         SceneManager.LoadScene(sceneBuildIndex);
     }
 
