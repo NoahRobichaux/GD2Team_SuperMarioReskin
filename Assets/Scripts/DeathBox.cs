@@ -10,6 +10,9 @@ public class DeathBox : MonoBehaviour
     public GameObject deathText;
     public GameObject deathSFX;
     public GameObject player;
+    public GameObject uIHead;
+    public GameObject uIHead1;
+    public GameObject uIHead2;
     
     public bool isPlayerDead = false;
 
@@ -39,6 +42,21 @@ public class DeathBox : MonoBehaviour
         {
             deathText.SetActive(true);
             deathSFX.SetActive(true);
+        }
+        if (SpongeDollars.lifeCount == 2)
+        {
+            uIHead2.SetActive(false);
+        }
+        if (SpongeDollars.lifeCount == 1)
+        {
+            uIHead2.SetActive(false);
+            uIHead1.SetActive(false);
+        }
+        if (SpongeDollars.lifeCount == 0)
+        {
+            uIHead2.SetActive(false);
+            uIHead1.SetActive(false);
+            uIHead.SetActive(false);
         }
     }
 

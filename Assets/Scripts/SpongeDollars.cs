@@ -12,8 +12,8 @@ public class SpongeDollars : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text coinCounter;
 
-    public int score = 0;
-    public int coinCount = 0;
+    public static int score = 0;
+    public static int coinCount = 0;
     public static int lifeCount = 3;
 
     public GameObject gameOverSFX;
@@ -43,6 +43,8 @@ public class SpongeDollars : MonoBehaviour
     void Start()
     {
         questionBlockRB = GetComponent<Rigidbody2D>();
+        scoreText.SetText("" + score);
+        coinCounter.SetText("x " + coinCount);
     }
 
     // Update is called once per frame
