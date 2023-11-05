@@ -12,8 +12,8 @@
 
 ### Priority
 
-- [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Abel)
-- [️⭕️] Fix script compilation errors to make game buildable for playtesting (Noah & Abel)
+- [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Noah & Abel)
+- [️⭕️] Fix script compilation errors to make game buildable for playtesting (Noah)
 - [️⭕️] Fix DeathBox script (Noah)
 - [️⭕️] Fix coin and score counters (Noah)
 - [️⭕️] Fix ? block behavior (Noah)
@@ -32,7 +32,7 @@
 ### Extras
 
 - [⭕️] Main menu with logo and player sprites (Noah)
-- [⭕️] Fix camera boundaries and colliders (Noah & Abel)
+- [⭕️] Fix camera boundaries and colliders (Noah)
 - [❌️] Program SFX for game actions (Noah & Abel)
 
 ***
