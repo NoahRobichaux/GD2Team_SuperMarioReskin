@@ -1505,37 +1505,37 @@ Transform:
   m_LocalScale: {x: 2.654981, y: 2.7651587, z: 1.1326}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 896617587}
-  - {fileID: 1725835576}
-  - {fileID: 502261387}
-  - {fileID: 1512327113}
-  - {fileID: 1703514659}
-  - {fileID: 1921620022}
-  - {fileID: 280030041}
-  - {fileID: 1750267010}
-  - {fileID: 1097036588}
-  - {fileID: 2140476163}
-  - {fileID: 1760091524}
-  - {fileID: 392284900}
-  - {fileID: 1296107792}
-  - {fileID: 446369447}
-  - {fileID: 875682996}
-  - {fileID: 765345285}
-  - {fileID: 1758614474}
-  - {fileID: 712941132}
-  - {fileID: 269491188}
-  - {fileID: 1277323756}
-  - {fileID: 907294654}
-  - {fileID: 1757838323}
-  - {fileID: 2023307931}
-  - {fileID: 665549140}
-  - {fileID: 815078341}
-  - {fileID: 1809313744}
-  - {fileID: 1521173958}
-  - {fileID: 641125923}
-  - {fileID: 1170108233}
-  - {fileID: 845772804}
   - {fileID: 439311613}
+  - {fileID: 845772804}
+  - {fileID: 1170108233}
+  - {fileID: 641125923}
+  - {fileID: 1521173958}
+  - {fileID: 1809313744}
+  - {fileID: 815078341}
+  - {fileID: 665549140}
+  - {fileID: 2023307931}
+  - {fileID: 1757838323}
+  - {fileID: 907294654}
+  - {fileID: 1277323756}
+  - {fileID: 269491188}
+  - {fileID: 712941132}
+  - {fileID: 1758614474}
+  - {fileID: 765345285}
+  - {fileID: 875682996}
+  - {fileID: 896617587}
+  - {fileID: 446369447}
+  - {fileID: 1296107792}
+  - {fileID: 392284900}
+  - {fileID: 1760091524}
+  - {fileID: 2140476163}
+  - {fileID: 1097036588}
+  - {fileID: 502261387}
+  - {fileID: 1725835576}
+  - {fileID: 1750267010}
+  - {fileID: 280030041}
+  - {fileID: 1921620022}
+  - {fileID: 1703514659}
+  - {fileID: 1512327113}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &158113033
@@ -2193,12 +2193,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &209452975
 GameObject:
@@ -3620,8 +3630,9 @@ GameObject:
   - component: {fileID: 269491191}
   - component: {fileID: 269491190}
   - component: {fileID: 269491189}
+  - component: {fileID: 269491192}
   m_Layer: 0
-  m_Name: Bricks (12)
+  m_Name: Brick (12)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3754,7 +3765,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -3766,6 +3777,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &269491192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269491187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &269629371
 GameObject:
   m_ObjectHideFlags: 0
@@ -3936,8 +3991,9 @@ GameObject:
   - component: {fileID: 280030044}
   - component: {fileID: 280030043}
   - component: {fileID: 280030042}
+  - component: {fileID: 280030045}
   m_Layer: 0
-  m_Name: Bricks (22)
+  m_Name: Brick (27)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4070,7 +4126,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -4082,6 +4138,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &280030045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280030040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &290159993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4253,12 +4353,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &290595315
 GameObject:
@@ -5073,12 +5183,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &381822995
 GameObject:
@@ -5475,8 +5595,9 @@ GameObject:
   - component: {fileID: 392284903}
   - component: {fileID: 392284902}
   - component: {fileID: 392284901}
+  - component: {fileID: 392284904}
   m_Layer: 0
-  m_Name: Bricks (20)
+  m_Name: Brick (20)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5609,7 +5730,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -5621,6 +5742,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &392284904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392284899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &396336074
 GameObject:
   m_ObjectHideFlags: 0
@@ -6231,8 +6396,9 @@ GameObject:
   - component: {fileID: 439311616}
   - component: {fileID: 439311615}
   - component: {fileID: 439311614}
+  - component: {fileID: 439311617}
   m_Layer: 0
-  m_Name: Bricks
+  m_Name: Brick
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6365,7 +6531,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -6377,6 +6543,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &439311617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439311612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &446369446
 GameObject:
   m_ObjectHideFlags: 0
@@ -6389,8 +6599,9 @@ GameObject:
   - component: {fileID: 446369450}
   - component: {fileID: 446369449}
   - component: {fileID: 446369448}
+  - component: {fileID: 446369451}
   m_Layer: 0
-  m_Name: Bricks (18)
+  m_Name: Brick (18)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6523,7 +6734,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -6535,6 +6746,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &446369451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446369446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &452387970
 GameObject:
   m_ObjectHideFlags: 0
@@ -7381,8 +7636,9 @@ GameObject:
   - component: {fileID: 502261390}
   - component: {fileID: 502261389}
   - component: {fileID: 502261388}
+  - component: {fileID: 502261391}
   m_Layer: 0
-  m_Name: Bricks (23)
+  m_Name: Brick (24)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7515,7 +7771,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -7527,6 +7783,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &502261391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502261386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &503987891
 GameObject:
   m_ObjectHideFlags: 0
@@ -8618,12 +8918,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &591513094
 GameObject:
@@ -9362,8 +9672,9 @@ GameObject:
   - component: {fileID: 641125926}
   - component: {fileID: 641125925}
   - component: {fileID: 641125924}
+  - component: {fileID: 641125927}
   m_Layer: 0
-  m_Name: Bricks (3)
+  m_Name: Brick (3)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9496,7 +9807,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -9508,6 +9819,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &641125927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641125922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &641789208
 GameObject:
   m_ObjectHideFlags: 0
@@ -9909,8 +10264,9 @@ GameObject:
   - component: {fileID: 665549143}
   - component: {fileID: 665549142}
   - component: {fileID: 665549141}
+  - component: {fileID: 665549144}
   m_Layer: 0
-  m_Name: Bricks (7)
+  m_Name: Brick (7)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10043,7 +10399,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -10055,6 +10411,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &665549144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 665549139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &679899058
 GameObject:
   m_ObjectHideFlags: 0
@@ -11082,8 +11482,9 @@ GameObject:
   - component: {fileID: 712941135}
   - component: {fileID: 712941134}
   - component: {fileID: 712941133}
+  - component: {fileID: 712941136}
   m_Layer: 0
-  m_Name: Bricks (13)
+  m_Name: Brick (13)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11216,7 +11617,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -11228,6 +11629,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &712941136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712941131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &728197225
 GameObject:
   m_ObjectHideFlags: 0
@@ -11460,8 +11905,9 @@ GameObject:
   - component: {fileID: 765345288}
   - component: {fileID: 765345287}
   - component: {fileID: 765345286}
+  - component: {fileID: 765345289}
   m_Layer: 0
-  m_Name: Bricks (15)
+  m_Name: Brick (15)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11594,7 +12040,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -11606,6 +12052,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &765345289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 765345284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &767767570
 GameObject:
   m_ObjectHideFlags: 0
@@ -11633,7 +12123,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -895, y: 340, z: 0}
-  m_LocalScale: {x: 13, y: 13, z: 1}
+  m_LocalScale: {x: 10, y: 13, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662479337}
@@ -12236,8 +12726,9 @@ GameObject:
   - component: {fileID: 815078344}
   - component: {fileID: 815078343}
   - component: {fileID: 815078342}
+  - component: {fileID: 815078345}
   m_Layer: 0
-  m_Name: Bricks (6)
+  m_Name: Brick (6)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12370,7 +12861,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -12382,6 +12873,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &815078345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815078340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &817281585
 GameObject:
   m_ObjectHideFlags: 0
@@ -12749,8 +13284,9 @@ GameObject:
   - component: {fileID: 845772807}
   - component: {fileID: 845772806}
   - component: {fileID: 845772805}
+  - component: {fileID: 845772808}
   m_Layer: 0
-  m_Name: Bricks (1)
+  m_Name: Brick (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12883,7 +13419,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -12895,6 +13431,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &845772808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845772803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &846508767
 GameObject:
   m_ObjectHideFlags: 0
@@ -13065,8 +13645,9 @@ GameObject:
   - component: {fileID: 875682999}
   - component: {fileID: 875682998}
   - component: {fileID: 875682997}
+  - component: {fileID: 875683000}
   m_Layer: 0
-  m_Name: Bricks (16)
+  m_Name: Brick (16)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13199,7 +13780,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -13211,6 +13792,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &875683000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875682995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &884626658
 GameObject:
   m_ObjectHideFlags: 0
@@ -13623,8 +14248,9 @@ GameObject:
   - component: {fileID: 896617590}
   - component: {fileID: 896617589}
   - component: {fileID: 896617588}
+  - component: {fileID: 896617591}
   m_Layer: 0
-  m_Name: Bricks (17)
+  m_Name: Brick (17)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13757,7 +14383,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -13769,6 +14395,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &896617591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896617586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &907294653
 GameObject:
   m_ObjectHideFlags: 0
@@ -13781,8 +14451,9 @@ GameObject:
   - component: {fileID: 907294657}
   - component: {fileID: 907294656}
   - component: {fileID: 907294655}
+  - component: {fileID: 907294658}
   m_Layer: 0
-  m_Name: Bricks (10)
+  m_Name: Brick (10)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13915,7 +14586,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -13927,6 +14598,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &907294658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907294653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &930444086
 GameObject:
   m_ObjectHideFlags: 0
@@ -14670,7 +15385,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -895, y: 460, z: 0}
-  m_LocalScale: {x: 13, y: 13, z: 1}
+  m_LocalScale: {x: 10, y: 13, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662479337}
@@ -15358,12 +16073,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1004499162
 GameObject:
@@ -16734,12 +17459,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1085460700
 GameObject:
@@ -16889,8 +17624,9 @@ GameObject:
   - component: {fileID: 1097036591}
   - component: {fileID: 1097036590}
   - component: {fileID: 1097036589}
+  - component: {fileID: 1097036592}
   m_Layer: 0
-  m_Name: Bricks (27)
+  m_Name: Brick (23)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17023,7 +17759,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -17035,6 +17771,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1097036592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097036587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1102097783
 GameObject:
   m_ObjectHideFlags: 0
@@ -17494,8 +18274,9 @@ GameObject:
   - component: {fileID: 1170108236}
   - component: {fileID: 1170108235}
   - component: {fileID: 1170108234}
+  - component: {fileID: 1170108237}
   m_Layer: 0
-  m_Name: Bricks (2)
+  m_Name: Brick (2)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17628,7 +18409,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -17640,6 +18421,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1170108237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170108232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1180871125
 GameObject:
   m_ObjectHideFlags: 0
@@ -19206,8 +20031,9 @@ GameObject:
   - component: {fileID: 1277323759}
   - component: {fileID: 1277323758}
   - component: {fileID: 1277323757}
+  - component: {fileID: 1277323760}
   m_Layer: 0
-  m_Name: Bricks (11)
+  m_Name: Brick (11)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19340,7 +20166,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -19352,6 +20178,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1277323760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1277323755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1285384482
 GameObject:
   m_ObjectHideFlags: 0
@@ -19448,8 +20318,9 @@ GameObject:
   - component: {fileID: 1296107795}
   - component: {fileID: 1296107794}
   - component: {fileID: 1296107793}
+  - component: {fileID: 1296107796}
   m_Layer: 0
-  m_Name: Bricks (19)
+  m_Name: Brick (19)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19582,7 +20453,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -19594,6 +20465,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1296107796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296107791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1300354224
 GameObject:
   m_ObjectHideFlags: 0
@@ -19849,12 +20764,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1332967318
 GameObject:
@@ -21471,7 +22396,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -895, y: 220, z: 0}
-  m_LocalScale: {x: 13, y: 13, z: 1}
+  m_LocalScale: {x: 10, y: 13, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 662479337}
@@ -21699,12 +22624,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1431364061
 GameObject:
@@ -21771,12 +22706,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 0}
-  questionBlockRB: {fileID: 0}
   scoreText: {fileID: 0}
   coinCounter: {fileID: 0}
   gameOverSFX: {fileID: 0}
   gameOverText: {fileID: 0}
+  block: {fileID: 0}
+  block1: {fileID: 0}
+  block2: {fileID: 0}
+  block3: {fileID: 0}
+  block4: {fileID: 0}
+  block5: {fileID: 0}
+  block6: {fileID: 0}
+  block7: {fileID: 0}
+  block8: {fileID: 0}
+  block9: {fileID: 0}
+  block10: {fileID: 0}
+  block11: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1443909373
 GameObject:
@@ -21835,7 +22780,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Skill Issue
+  m_text: Skill  lssue
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a17d0d9ba83537d4aa9815ad205c454c, type: 2}
   m_sharedMaterial: {fileID: 2149553823708182213, guid: a17d0d9ba83537d4aa9815ad205c454c, type: 2}
@@ -22400,12 +23345,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1491769599
 GameObject:
@@ -22578,12 +23533,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1502997573
 GameObject:
@@ -22727,8 +23692,9 @@ GameObject:
   - component: {fileID: 1512327116}
   - component: {fileID: 1512327115}
   - component: {fileID: 1512327114}
+  - component: {fileID: 1512327117}
   m_Layer: 0
-  m_Name: Bricks (30)
+  m_Name: Brick (30)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22861,7 +23827,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -22873,6 +23839,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1512327117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1512327112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1519206657
 GameObject:
   m_ObjectHideFlags: 0
@@ -23043,8 +24053,9 @@ GameObject:
   - component: {fileID: 1521173961}
   - component: {fileID: 1521173960}
   - component: {fileID: 1521173959}
+  - component: {fileID: 1521173962}
   m_Layer: 0
-  m_Name: Bricks (4)
+  m_Name: Brick (4)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23177,7 +24188,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -23189,6 +24200,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1521173962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521173957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1525620980
 GameObject:
   m_ObjectHideFlags: 0
@@ -25375,8 +26430,9 @@ GameObject:
   - component: {fileID: 1703514662}
   - component: {fileID: 1703514661}
   - component: {fileID: 1703514660}
+  - component: {fileID: 1703514663}
   m_Layer: 0
-  m_Name: Bricks (29)
+  m_Name: Brick (29)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25509,7 +26565,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -25521,6 +26577,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1703514663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1703514658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1706322199
 GameObject:
   m_ObjectHideFlags: 0
@@ -26103,8 +27203,9 @@ GameObject:
   - component: {fileID: 1725835579}
   - component: {fileID: 1725835578}
   - component: {fileID: 1725835577}
+  - component: {fileID: 1725835580}
   m_Layer: 0
-  m_Name: Bricks (24)
+  m_Name: Brick (25)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26237,7 +27338,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -26249,6 +27350,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1725835580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725835575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1726118447
 GameObject:
   m_ObjectHideFlags: 0
@@ -27104,8 +28249,9 @@ GameObject:
   - component: {fileID: 1750267013}
   - component: {fileID: 1750267012}
   - component: {fileID: 1750267011}
+  - component: {fileID: 1750267014}
   m_Layer: 0
-  m_Name: Bricks (21)
+  m_Name: Brick (26)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27238,7 +28384,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -27250,6 +28396,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1750267014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750267009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1753614078
 GameObject:
   m_ObjectHideFlags: 0
@@ -27504,8 +28694,9 @@ GameObject:
   - component: {fileID: 1757838326}
   - component: {fileID: 1757838325}
   - component: {fileID: 1757838324}
+  - component: {fileID: 1757838327}
   m_Layer: 0
-  m_Name: Bricks (9)
+  m_Name: Brick (9)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27638,7 +28829,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -27650,6 +28841,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1757838327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757838322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1758614473
 GameObject:
   m_ObjectHideFlags: 0
@@ -27662,8 +28897,9 @@ GameObject:
   - component: {fileID: 1758614477}
   - component: {fileID: 1758614476}
   - component: {fileID: 1758614475}
+  - component: {fileID: 1758614478}
   m_Layer: 0
-  m_Name: Bricks (14)
+  m_Name: Brick (14)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27796,7 +29032,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -27808,6 +29044,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1758614478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758614473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1760091523
 GameObject:
   m_ObjectHideFlags: 0
@@ -27820,8 +29100,9 @@ GameObject:
   - component: {fileID: 1760091527}
   - component: {fileID: 1760091526}
   - component: {fileID: 1760091525}
+  - component: {fileID: 1760091528}
   m_Layer: 0
-  m_Name: Bricks (25)
+  m_Name: Brick (21)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27954,7 +29235,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -27966,6 +29247,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1760091528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760091523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1776270971
 GameObject:
   m_ObjectHideFlags: 0
@@ -29436,8 +30761,9 @@ GameObject:
   - component: {fileID: 1809313747}
   - component: {fileID: 1809313746}
   - component: {fileID: 1809313745}
+  - component: {fileID: 1809313748}
   m_Layer: 0
-  m_Name: Bricks (5)
+  m_Name: Brick (5)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29570,7 +30896,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -29582,6 +30908,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1809313748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809313743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1809944332
 GameObject:
   m_ObjectHideFlags: 0
@@ -30069,12 +31439,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1846103890
 GameObject:
@@ -30922,12 +32302,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4f94318414d954db40d252cfafb8c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionBlock: {fileID: 290159993}
-  questionBlockRB: {fileID: 290159995}
   scoreText: {fileID: 1886696008}
   coinCounter: {fileID: 1356310588}
   gameOverSFX: {fileID: 1526262536}
   gameOverText: {fileID: 986745845}
+  block: {fileID: 290159993}
+  block1: {fileID: 1863200326}
+  block2: {fileID: 1825834281}
+  block3: {fileID: 1429655604}
+  block4: {fileID: 1312524598}
+  block5: {fileID: 375351296}
+  block6: {fileID: 563054316}
+  block7: {fileID: 1491769599}
+  block8: {fileID: 991598635}
+  block9: {fileID: 1077869372}
+  block10: {fileID: 184062050}
+  block11: {fileID: 1475779763}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1874826780
 GameObject:
@@ -31605,8 +32995,9 @@ GameObject:
   - component: {fileID: 1921620025}
   - component: {fileID: 1921620024}
   - component: {fileID: 1921620023}
+  - component: {fileID: 1921620026}
   m_Layer: 0
-  m_Name: Bricks (28)
+  m_Name: Brick (28)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31739,7 +33130,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -31751,6 +33142,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1921620026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921620021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &1926005820
 GameObject:
   m_ObjectHideFlags: 0
@@ -32862,8 +34297,9 @@ GameObject:
   - component: {fileID: 2023307934}
   - component: {fileID: 2023307933}
   - component: {fileID: 2023307932}
+  - component: {fileID: 2023307935}
   m_Layer: 0
-  m_Name: Bricks (8)
+  m_Name: Brick (8)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32996,7 +34432,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -33008,6 +34444,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2023307935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023307930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &2051728091
 GameObject:
   m_ObjectHideFlags: 0
@@ -34511,8 +35991,9 @@ GameObject:
   - component: {fileID: 2140476166}
   - component: {fileID: 2140476165}
   - component: {fileID: 2140476164}
+  - component: {fileID: 2140476167}
   m_Layer: 0
-  m_Name: Bricks (26)
+  m_Name: Brick (22)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34645,7 +36126,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 0.44479162, b: 0, a: 1}
   m_FlipX: 0
@@ -34657,6 +36138,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2140476167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140476162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 257f029798eff074fb343dd12f6be5a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1747358730}
+  brick: {fileID: 439311612}
+  brick1: {fileID: 845772803}
+  brick2: {fileID: 1170108232}
+  brick3: {fileID: 641125922}
+  brick4: {fileID: 1521173957}
+  brick5: {fileID: 1809313743}
+  brick6: {fileID: 815078340}
+  brick7: {fileID: 665549139}
+  brick8: {fileID: 2023307930}
+  brick9: {fileID: 1757838322}
+  brick10: {fileID: 907294653}
+  brick11: {fileID: 1277323755}
+  brick12: {fileID: 269491187}
+  brick13: {fileID: 712941131}
+  brick14: {fileID: 1758614473}
+  brick15: {fileID: 765345284}
+  brick16: {fileID: 875682995}
+  brick17: {fileID: 896617586}
+  brick18: {fileID: 446369446}
+  brick19: {fileID: 1296107791}
+  brick20: {fileID: 392284899}
+  brick21: {fileID: 1760091523}
+  brick22: {fileID: 2140476162}
+  brick23: {fileID: 1097036587}
+  brick24: {fileID: 502261386}
+  brick25: {fileID: 1725835575}
+  brick26: {fileID: 1750267009}
+  brick27: {fileID: 280030040}
+  brick28: {fileID: 1921620021}
+  brick29: {fileID: 1703514658}
+  brick30: {fileID: 1512327112}
 --- !u!1 &2143132954
 GameObject:
   m_ObjectHideFlags: 0
