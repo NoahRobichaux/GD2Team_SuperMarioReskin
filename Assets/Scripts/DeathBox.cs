@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class DeathBox : MonoBehaviour
 {
-    public static GameObject deathBox;
-    public static GameObject deathText;
-    public static GameObject deathSFX;
+    public GameObject deathBox;
+    public GameObject deathText;
+    public GameObject deathSFX;
     public GameObject player;
 
     // Start is called before the first frame update
@@ -31,6 +31,7 @@ public class DeathBox : MonoBehaviour
         {
             deathText.SetActive(true);
             deathSFX.SetActive(true);
+            SpongeDollars.lifeCount--;
         }
     }
 }

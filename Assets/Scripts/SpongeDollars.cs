@@ -36,6 +36,10 @@ public class SpongeDollars : MonoBehaviour
 
     public int score = 0;
     public int coinCount = 0;
+    public static int lifeCount = 3;
+
+    public GameObject gameOverSFX;
+    public GameObject gameOverText;
 
     public static bool isBlockHit = false;
     public static bool isBlock1Hit = false;
@@ -49,6 +53,13 @@ public class SpongeDollars : MonoBehaviour
     public static bool isBlock9Hit = false;
     public static bool isBlock10Hit = false;
     public static bool isBlock11Hit = false;
+
+    public GameObject gameManager;
+
+    void Awake()
+    {
+        DontDestroyOnLoad(gameManager.gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -70,7 +81,11 @@ public class SpongeDollars : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (lifeCount == 0)
+        {
+            gameOverSFX.SetActive(true);
+            gameOverText.SetActive(true);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

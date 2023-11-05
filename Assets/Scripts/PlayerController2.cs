@@ -20,8 +20,7 @@ public class PlayerController2 : MonoBehaviour
     {
         if (collision.gameObject.name == "Goomba")
         {
-            DeathBox.deathText.SetActive(true);
-            DeathBox.deathSFX.SetActive(true);
+
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
