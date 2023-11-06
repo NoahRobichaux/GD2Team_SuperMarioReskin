@@ -2,7 +2,8 @@
 
 ***
 
-> ## Checklist Completion: 20/43 (~46.5%)
+> ## Total Checklist Completion: 20/43 (~46.5%)
+> ## Priority Checklist Completion: 16/26 (61.5%)
 > 
 > ⭕️ = Complete
 >
