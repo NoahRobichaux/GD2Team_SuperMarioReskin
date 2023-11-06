@@ -2,11 +2,11 @@
 
 ***
 
-> ❌️ = Incomplete
+> ⭕️ = Complete
 >
 > ❗️ = In Progress
 > 
-> ️⭕️ = Complete
+> ️❌️ = Incomplete
 
 ***
 
