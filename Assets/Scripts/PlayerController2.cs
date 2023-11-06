@@ -1,9 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class PlayerController2 : MonoBehaviour
 {
+    public GameObject player;
+    public Rigidbody2D playerRB;
+
+    public float scene0LoadDelay;
+    public float scene1LoadDelay;
+    
     public static bool playerHitBlock;
     public static bool playerHitBlock1;
     public static bool playerHitBlock2;
@@ -49,94 +57,318 @@ public class PlayerController2 : MonoBehaviour
     public static bool playerHitBrick29;
     public static bool playerHitBrick30;
 
+    public static bool playerHitGoomba;
+    public static bool playerKillGoomba;
+    public static bool playerHitGoomba1;
+    public static bool playerKillGoomba1;
+    public static bool playerHitGoomba2;
+    public static bool playerKillGoomba2;
+    public static bool playerHitGoomba3;
+    public static bool playerKillGoomba3;
+    public static bool playerHitGoomba4;
+    public static bool playerKillGoomba4;
+    public static bool playerHitGoomba5;
+    public static bool playerKillGoomba5;
+    public static bool playerHitGoomba6;
+    public static bool playerKillGoomba6;
+    public static bool playerHitGoomba7;
+    public static bool playerKillGoomba7;
+    public static bool playerHitGoomba8;
+    public static bool playerKillGoomba8;
+    public static bool playerHitGoomba9;
+    public static bool playerKillGoomba9;
+    public static bool playerHitGoomba10;
+    public static bool playerKillGoomba10;
+    public static bool playerHitGoomba11;
+    public static bool playerKillGoomba11;
+    public static bool playerHitGoomba12;
+    public static bool playerKillGoomba12;
+    public static bool playerHitGoomba13;
+    public static bool playerKillGoomba13;
+    public static bool playerHitGoomba14;
+    public static bool playerKillGoomba14;
+    public static bool playerHitGoomba15;
+    public static bool playerKillGoomba15;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        playerRB = GetComponent<Rigidbody2D>();
+        scene0LoadDelay = 22f;
+        scene1LoadDelay = 3f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (DeathBox.isPlayerDead == true && playerHitGoomba == true && SpongeDollars.lifeCount > 0)
+        {
+            playerRB.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (scene1LoadDelay <= 0 && SpongeDollars.lifeCount > 0)
+        {
+            SceneManager.LoadScene(1);
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba == true && SpongeDollars.lifeCount <= 0)
+        {
+            playerRB.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            scene0LoadDelay -= Time.deltaTime;
+        }
+        if (scene0LoadDelay <= 0 && SpongeDollars.lifeCount == 0)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Goomba")
+        if (collision.gameObject.name == "Goomba" && player.transform.position.y <= 43.5)
         {
+            playerHitGoomba = true;
+        }
+        if (collision.gameObject.name == "Goomba" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
 
+        if (collision.gameObject.name == "Goomba (1)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba1 = true;
+        }
+        if (collision.gameObject.name == "Goomba (1)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba1 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (2)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba2 = true;
+        }
+        if (collision.gameObject.name == "Goomba (2)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba2 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (3)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba3 = true;
+        }
+        if (collision.gameObject.name == "Goomba (3)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba3 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (4)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba4 = true;
+        }
+        if (collision.gameObject.name == "Goomba (4)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba4 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (5)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba5 = true;
+        }
+        if (collision.gameObject.name == "Goomba (5)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba5 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (6)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba6 = true;
+        }
+        if (collision.gameObject.name == "Goomba (6)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba6 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (7)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba7 = true;
+        }
+        if (collision.gameObject.name == "Goomba (7)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba7 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (8)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba8 = true;
+        }
+        if (collision.gameObject.name == "Goomba (8)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba8 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (9)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba9 = true;
+        }
+        if (collision.gameObject.name == "Goomba (9)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba9 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (10)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba10 = true;
+        }
+        if (collision.gameObject.name == "Goomba (10)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba10 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (11)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba11 = true;
+        }
+        if (collision.gameObject.name == "Goomba (11)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba11 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (12)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba12 = true;
+        }
+        if (collision.gameObject.name == "Goomba (12)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba12 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (13)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba13 = true;
+        }
+        if (collision.gameObject.name == "Goomba (13)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba13 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (14)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba14 = true;
+        }
+        if (collision.gameObject.name == "Goomba (14)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba14 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
+        }
+
+        if (collision.gameObject.name == "Goomba (15)" && player.transform.position.y <= 43.5)
+        {
+            playerHitGoomba15 = true;
+        }
+        if (collision.gameObject.name == "Goomba (15)" && player.transform.position.y >= 43.5)
+        {
+            playerKillGoomba15 = true;
+            Destroy(collision.gameObject);
+            SpongeDollars.score += 100;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "QuestionBlock")
+        if (collision.gameObject.name == "QuestionBlock" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlockHit = true;
             playerHitBlock = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (1)")
+        if (collision.gameObject.name == "QuestionBlock (1)" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlock1Hit = true;
             playerHitBlock1 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (2)")
+        if (collision.gameObject.name == "QuestionBlock (2)" && player.transform.position.y < 50)
         {
             SpongeDollars.isBlock2Hit = true;
             playerHitBlock2 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (3)")
+        if (collision.gameObject.name == "QuestionBlock (3)" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlock3Hit = true;
             playerHitBlock3 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (4)")
+        if (collision.gameObject.name == "QuestionBlock (4)" && player.transform.position.y < 50)
         {
             SpongeDollars.isBlock4Hit = true;
             playerHitBlock4 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (5)")
+        if (collision.gameObject.name == "QuestionBlock (5)" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlock5Hit = true;
             playerHitBlock5 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (6)")
+        if (collision.gameObject.name == "QuestionBlock (6)" && player.transform.position.y < 50)
         {
             SpongeDollars.isBlock6Hit = true;
             playerHitBlock6 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (7)")
+        if (collision.gameObject.name == "QuestionBlock (7)" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlock7Hit = true;
             playerHitBlock7 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (8)")
+        if (collision.gameObject.name == "QuestionBlock (8)" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlock8Hit = true;
             playerHitBlock8 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (9)")
+        if (collision.gameObject.name == "QuestionBlock (9)" && player.transform.position.y < 50)
         {
             SpongeDollars.isBlock9Hit = true;
             playerHitBlock9 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (10)")
+        if (collision.gameObject.name == "QuestionBlock (10)" && player.transform.position.y < 50)
         {
             SpongeDollars.isBlock10Hit = true;
             playerHitBlock10 = true;
         }
 
-        if (collision.gameObject.name == "QuestionBlock (11)")
+        if (collision.gameObject.name == "QuestionBlock (11)" && player.transform.position.y < 46)
         {
             SpongeDollars.isBlock11Hit = true;
             playerHitBlock11 = true;

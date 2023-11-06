@@ -95,7 +95,7 @@ public class EnemyMovement : MonoBehaviour
         goomba15RB = goomba.GetComponent<Rigidbody2D>();
     }
 
-    void Awake()
+    void Update()
     {
         goombaRB.velocity = Vector2.left * goombaWalkSpeed;
         goomba1RB.velocity = Vector2.left * goomba1WalkSpeed;
@@ -115,13 +115,89 @@ public class EnemyMovement : MonoBehaviour
         goomba15RB.velocity = Vector2.left * goomba15WalkSpeed;
     }
 
-    void Active()
-    {
-        
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba == true)
+        {
+            SpongeDollars.lifeCount --;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba1 == true)
+        {
+            SpongeDollars.lifeCount --;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba2 == true)
+        {
+            SpongeDollars.lifeCount --;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba3 == true)
+        {
+            SpongeDollars.lifeCount --;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba4 == true)
+        {
+            SpongeDollars.lifeCount --;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba5 == true)
+        {
+            SpongeDollars.lifeCount --;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba6 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba7 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba8 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba9 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba10 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba11 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba12 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba13 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba14 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba15 == true)
+        {
+            SpongeDollars.lifeCount--;
+            DeathBox.isPlayerDead = true;
+        }
+
         if (collision.gameObject.tag == "Pipe" && goombaWalkLeft == true)
         {
             goombaRB.velocity = Vector2.zero;

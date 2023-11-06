@@ -14,7 +14,7 @@ public class DeathBox : MonoBehaviour
     public GameObject uIHead1;
     public GameObject uIHead2;
     
-    public bool isPlayerDead = false;
+    public static bool isPlayerDead = false;
 
     void Awake()
     {
@@ -34,7 +34,7 @@ public class DeathBox : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
-        if (player.transform.position.y <= -2300 && SpongeDollars.lifeCount <= 0)
+        if (player.transform.position.y <= -2300 && SpongeDollars.lifeCount == 0)
         {
             SceneManager.LoadScene(0);
         }
@@ -57,6 +57,12 @@ public class DeathBox : MonoBehaviour
             uIHead2.SetActive(false);
             uIHead1.SetActive(false);
             uIHead.SetActive(false);
+        }
+
+        if (isPlayerDead == true)
+        {
+            player.GetComponent<SpriteRenderer>().enabled = false;
+            player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         }
     }
 
