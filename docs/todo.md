@@ -5,7 +5,6 @@
 > ## Total Checklist Completion: 20/43 (~46.5%)
 > ## Priority Checklist Completion: 10/26 (~38.5%)
 > ## Extras Checklist Completion: 10/16 (62.5%)
-> 
 > ⭕️ = Complete
 >
 > ❗️ = In Progress
