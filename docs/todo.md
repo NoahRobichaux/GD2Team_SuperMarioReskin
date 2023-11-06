@@ -3,6 +3,8 @@
 ***
 
 > ❌️ = Incomplete
+>
+> ❗️ = In Progress
 > 
 > ️⭕️ = Complete
 
@@ -17,9 +19,9 @@
 - [️⭕️] Fix DeathBox script (Noah)
 - [️⭕️] Fix coin and score counters (Noah)
 - [️⭕️] Fix ? block behavior (Noah)
-- [❌️] Goomba movement (Noah)
+- [❗️] Goomba movement (Noah)
+- [❗️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa movement (Noah)
-- [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
 - [❌️] Implement Mushroom script into Krabby Patty powerup (Abel)
 - [❌️] Krabby Patty sprite shows above a mushroom ? Block upon player collision with said block (Noah)
@@ -44,6 +46,7 @@
 - [⭕️] Fade screen to black with gameOverText in front if at 0 lives (Noah)
 - [❌️] Program eating krabby patty "nom" SFX when player collides with krabby patty (Noah)
 - [❌️] Program "cha-ching" SFX when player collides with a coin ? block for the first time (Noah)
+- [❌️] Program empty block hit SFX when player collides with an empty ? Block (Noah)
 
 ***
 
@@ -87,6 +90,7 @@
 ### Extras (Low Priority)
 
 - [️⭕️] Main menu song (Noah)
+- [❌️] Empty block hit SFX (Any)
 
 ### Extras (High Priority)
 
