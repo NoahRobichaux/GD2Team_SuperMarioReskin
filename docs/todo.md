@@ -2,11 +2,11 @@
 
 ***
 
-> ## Total Checklist Completion: 20/42 (~47.6%)
+> ## Total Checklist Completion: 22/43 (~51.2%)
 
-> ## Priority Checklist Completion: 10/26 (~38.5%)
+> ## Priority Checklist Completion: 13/31 (~41.9%)
 
-> ## Extras Checklist Completion: 10/16 (62.5%)
+> ## Extras Checklist Completion: 13/17 (~76.5%)
 
 > ## Key
 > 
@@ -32,6 +32,7 @@
 - [️⭕️] Fix ? block behavior (Noah)
 - [❗️] Goomba movement (Noah)
 - [❗️] Goomba behavior (Noah)
+- [❗️] Fix the bug when player dies to a goomba then a DeathBox, or vice versa, causes the death sequence to break (Noah)
 - [❌️] Koopa Troopa movement (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
 - [❌️] Implement Mushroom script into Krabby Patty powerup (Abel)
@@ -39,7 +40,6 @@
 - [❌️] Krabby Patty movement when active outside of ? block (Noah)
 - [❌️] Activate Abel's Mushroom script when player collides with the krabby patty sprite (Noah & Abel)
 - [❌️] Implement isSuperMario bool into the scripts and only kill player if isPlayerDead = true and isSuperMario = false (Noah)
-- [❌️] Fix the bug when player dies to a goomba then a DeathBox, or vice versa, causes the death and possibly game over sequence to break (Noah)
 
 > _Make the Krabby Patty function like the Super Mushroom in Mario, 
 > revert the player sprite to the small state upon enemy collision from the sides and
@@ -101,9 +101,10 @@
 ### Extras (Low Priority)
 
 - [️⭕️] Main menu song (Noah)
-- [❌️] Empty block hit SFX (Any)
+- [⭕️] Empty block hit SFX (Mohamed)
+- [⭕️] Walk SFX (Abel)
 
 ### Extras (High Priority)
 
-- [❌️] Find SFX for game actions (Any)
+- [⭕️] Find SFX for eating a Krabby Patty (Noah)
 - [❌️] Find BGM for level (Any)
