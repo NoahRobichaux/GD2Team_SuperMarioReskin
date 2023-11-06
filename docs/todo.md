@@ -8,6 +8,8 @@
 
 > ## Extras Checklist Completion: 13/17 (~76.5%)
 
+***
+
 > ## Key
 > 
 > ⭕️ = Complete
