@@ -8,6 +8,8 @@
 
 > ## Extras Checklist Completion: 10/16 (62.5%)
 
+> ## Key
+> 
 > ⭕️ = Complete
 >
 > ❗️ = In Progress
