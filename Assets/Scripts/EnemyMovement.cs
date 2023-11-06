@@ -78,21 +78,21 @@ public class EnemyMovement : MonoBehaviour
     void Start()
     {
         goombaRB = goomba.GetComponent<Rigidbody2D>();
-        goomba1RB = goomba.GetComponent<Rigidbody2D>();
-        goomba2RB = goomba.GetComponent<Rigidbody2D>();
-        goomba3RB = goomba.GetComponent<Rigidbody2D>();
-        goomba4RB = goomba.GetComponent<Rigidbody2D>();
-        goomba5RB = goomba.GetComponent<Rigidbody2D>();
-        goomba6RB = goomba.GetComponent<Rigidbody2D>();
-        goomba7RB = goomba.GetComponent<Rigidbody2D>();
-        goomba8RB = goomba.GetComponent<Rigidbody2D>();
-        goomba9RB = goomba.GetComponent<Rigidbody2D>();
-        goomba10RB = goomba.GetComponent<Rigidbody2D>();
-        goomba11RB = goomba.GetComponent<Rigidbody2D>();
-        goomba12RB = goomba.GetComponent<Rigidbody2D>();
-        goomba13RB = goomba.GetComponent<Rigidbody2D>();
-        goomba14RB = goomba.GetComponent<Rigidbody2D>();
-        goomba15RB = goomba.GetComponent<Rigidbody2D>();
+        goomba1RB = goomba1.GetComponent<Rigidbody2D>();
+        goomba2RB = goomba2.GetComponent<Rigidbody2D>();
+        goomba3RB = goomba3.GetComponent<Rigidbody2D>();
+        goomba4RB = goomba4.GetComponent<Rigidbody2D>();
+        goomba5RB = goomba5.GetComponent<Rigidbody2D>();
+        goomba6RB = goomba6.GetComponent<Rigidbody2D>();
+        goomba7RB = goomba7.GetComponent<Rigidbody2D>();
+        goomba8RB = goomba8.GetComponent<Rigidbody2D>();
+        goomba9RB = goomba9.GetComponent<Rigidbody2D>();
+        goomba10RB = goomba10.GetComponent<Rigidbody2D>();
+        goomba11RB = goomba11.GetComponent<Rigidbody2D>();
+        goomba12RB = goomba12.GetComponent<Rigidbody2D>();
+        goomba13RB = goomba13.GetComponent<Rigidbody2D>();
+        goomba14RB = goomba14.GetComponent<Rigidbody2D>();
+        goomba15RB = goomba15.GetComponent<Rigidbody2D>();
     }
 
     void Update()
