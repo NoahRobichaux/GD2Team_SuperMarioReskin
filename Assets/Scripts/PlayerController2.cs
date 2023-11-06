@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.SceneManagement;
@@ -90,6 +91,10 @@ public class PlayerController2 : MonoBehaviour
     public static bool playerHitGoomba15;
     public static bool playerKillGoomba15;
 
+    void Awake()
+    {
+        playerRB.bodyType = RigidbodyType2D.Dynamic;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -101,24 +106,165 @@ public class PlayerController2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //copy and paste this for the other 15 goobers i mean goombas
+
         if (DeathBox.isPlayerDead == true && playerHitGoomba == true && SpongeDollars.lifeCount > 0)
         {
-            playerRB.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba1 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba1 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba2 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba2 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba3 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba3 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba4 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba4 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba5 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba5 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba6 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba6 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba7 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba7 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba8 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba8 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba9 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba9 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba10 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba10 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba11 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba11 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba12 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba12 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba13 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba13 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba14 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba14 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (DeathBox.isPlayerDead == true && playerHitGoomba15 == true && SpongeDollars.lifeCount > 0)
+        {
+            scene1LoadDelay -= Time.deltaTime;
+        }
+        if (DeathBox.isPlayerDead == true && playerHitGoomba15 == true && SpongeDollars.lifeCount <= 0)
+        {
+            scene0LoadDelay -= Time.deltaTime;
+        }
+
+        if (scene0LoadDelay <= 0 && SpongeDollars.lifeCount == 0)
+        {
+            SceneManager.LoadScene(0);
         }
         if (scene1LoadDelay <= 0 && SpongeDollars.lifeCount > 0)
         {
             SceneManager.LoadScene(1);
         }
 
-        if (DeathBox.isPlayerDead == true && playerHitGoomba == true && SpongeDollars.lifeCount <= 0)
+        if (playerHitGoomba == true || playerHitGoomba1 == true || playerHitGoomba2 == true || playerHitGoomba3 == true || playerHitGoomba4 == true || playerHitGoomba5 == true || playerHitGoomba6 == true || playerHitGoomba7 == true || playerHitGoomba8 == true || playerHitGoomba9 == true || playerHitGoomba10 == true || playerHitGoomba11 == true || playerHitGoomba12 == true || playerHitGoomba13 == true || playerHitGoomba14 == true || playerHitGoomba15 == true)
         {
-            playerRB.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
-            scene0LoadDelay -= Time.deltaTime;
-        }
-        if (scene0LoadDelay <= 0 && SpongeDollars.lifeCount == 0)
-        {
-            SceneManager.LoadScene(0);
+            player.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
+            playerRB.bodyType = RigidbodyType2D.Static;
         }
     }
 

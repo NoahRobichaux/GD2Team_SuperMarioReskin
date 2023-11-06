@@ -10,6 +10,7 @@ public class DeathBox : MonoBehaviour
     public GameObject deathText;
     public GameObject deathSFX;
     public GameObject player;
+    public SpriteRenderer playerSR;
     public GameObject uIHead;
     public GameObject uIHead1;
     public GameObject uIHead2;
@@ -38,7 +39,7 @@ public class DeathBox : MonoBehaviour
         {
             SceneManager.LoadScene(0);
         }
-        if (SpongeDollars.lifeCount > 0 && isPlayerDead == true)
+        if (isPlayerDead == true && SpongeDollars.lifeCount > 0)
         {
             deathText.SetActive(true);
             deathSFX.SetActive(true);
@@ -61,8 +62,7 @@ public class DeathBox : MonoBehaviour
 
         if (isPlayerDead == true)
         {
-            player.GetComponent<SpriteRenderer>().enabled = false;
-            player.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            playerSR.color = new Color(1f, 1f, 1f, 0f);
         }
     }
 

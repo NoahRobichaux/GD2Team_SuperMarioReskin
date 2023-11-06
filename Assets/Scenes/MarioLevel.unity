@@ -22733,6 +22733,7 @@ MonoBehaviour:
   deathText: {fileID: 0}
   deathSFX: {fileID: 0}
   player: {fileID: 0}
+  playerSR: {fileID: 0}
   uIHead: {fileID: 0}
   uIHead1: {fileID: 0}
   uIHead2: {fileID: 0}
@@ -27882,6 +27883,7 @@ MonoBehaviour:
   deathText: {fileID: 1443909373}
   deathSFX: {fileID: 1180871125}
   player: {fileID: 1747358730}
+  playerSR: {fileID: 1747358756}
   uIHead: {fileID: 964568593}
   uIHead1: {fileID: 767767570}
   uIHead2: {fileID: 1421166864}
@@ -28384,6 +28386,11 @@ MonoBehaviour:
   playerRB: {fileID: 0}
   scene0LoadDelay: 0
   scene1LoadDelay: 0
+--- !u!212 &1747358756 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4881780675888844766, guid: 908b189607f928148aabbddf90307287, type: 3}
+  m_PrefabInstance: {fileID: 1470897112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1750267009
 GameObject:
   m_ObjectHideFlags: 0
