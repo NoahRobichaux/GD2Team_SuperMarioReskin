@@ -22,6 +22,11 @@
 - [❌️] Goomba behavior (Noah)
 - [❌️] Koopa Troopa and shell behavior (Noah)
 - [❌️] Implement Mushroom script into Krabby Patty powerup (Abel)
+- [❌️] Krabby Patty sprite shows above a mushroom ? Block upon player collision with said block (Noah)
+- [❌️] Krabby Patty movement when active outside of ? block (Noah)
+- [❌️] Activate Abel's Mushroom script when player collides with the krabby patty sprite (Noah & Abel)
+- [❌️] Implement isSuperMario bool into the scripts and only kill player if isPlayerDead = true and isSuperMario = false (Noah)
+- [❌️] Fix the bug when player dies to a goomba then a DeathBox, or vice versa, causes the death and possibly game over sequence to break (Noah)
 
 > _Make the Krabby Patty function like the Super Mushroom in Mario, 
 > revert the player sprite to the small state upon enemy collision from the sides and
@@ -33,7 +38,12 @@
 
 - [⭕️] Main menu with logo and player sprites (Noah)
 - [⭕️] Fix camera boundaries and colliders (Noah)
-- [❌️] Program SFX for game actions (Noah & Abel)
+- [⭕️] Program jump SFX (Abel)
+- [⭕️] Program death Vine Boom SFX (Noah)
+- [⭕️] Program game over Sad Violin Airhorn music (Noah)
+- [⭕️] Fade screen to black with gameOverText in front if at 0 lives (Noah)
+- [❌️] Program eating krabby patty "nom" SFX when player collides with krabby patty (Noah)
+- [❌️] Program "cha-ching" SFX when player collides with a coin ? block for the first time (Noah)
 
 ***
 
@@ -50,6 +60,7 @@
 - [❌️] ? Block art (Nathan or Michael)
 - [❌️] Pipe art (Nathan or Michael)
 - [❌️] Krabby Patty sprite (Nathan or Michael)
+- [❌️] Koopa Troopa replacement sprite (Nathan or Michael)
 
 > _PNGs go in "Custom Sprites", 
 > PSDs go in "Other"_
