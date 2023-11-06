@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -16,10 +17,12 @@ public class DeathBox : MonoBehaviour
     public GameObject uIHead2;
     
     public static bool isPlayerDead = false;
+    public bool didPlayerHitDBox = false;
 
     void Awake()
     {
         isPlayerDead = false;
+        playerSR.enabled = true;
     }
 
     // Start is called before the first frame update
@@ -31,11 +34,11 @@ public class DeathBox : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.y <= -100 && SpongeDollars.lifeCount > 0)
+        if (player.transform.position.y <= -100 && didPlayerHitDBox == true && SpongeDollars.lifeCount > 0)
         {
             SceneManager.LoadScene(1);
         }
-        if (player.transform.position.y <= -2300 && SpongeDollars.lifeCount == 0)
+        if (player.transform.position.y <= -2300 && didPlayerHitDBox == true && SpongeDollars.lifeCount == 0)
         {
             SceneManager.LoadScene(0);
         }
@@ -60,9 +63,9 @@ public class DeathBox : MonoBehaviour
             uIHead.SetActive(false);
         }
 
-        if (isPlayerDead == true)
+        if (isPlayerDead == true && didPlayerHitDBox == true)
         {
-            playerSR.color = new Color(1f, 1f, 1f, 0f);
+            playerSR.enabled = false;
         }
     }
 
@@ -72,6 +75,7 @@ public class DeathBox : MonoBehaviour
         {
             SpongeDollars.lifeCount --;
             isPlayerDead = true;
+            didPlayerHitDBox = true;
         }
     }
 }

@@ -22695,6 +22695,7 @@ GameObject:
   - component: {fileID: 1431364062}
   - component: {fileID: 1431364064}
   - component: {fileID: 1431364063}
+  - component: {fileID: 1431364065}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -22737,6 +22738,7 @@ MonoBehaviour:
   uIHead: {fileID: 0}
   uIHead1: {fileID: 0}
   uIHead2: {fileID: 0}
+  didPlayerHitDBox: 0
 --- !u!114 &1431364064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22766,6 +22768,22 @@ MonoBehaviour:
   block10: {fileID: 0}
   block11: {fileID: 0}
   gameManager: {fileID: 1431364061}
+--- !u!114 &1431364065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431364061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6763fd9c8d8504f44a14b915d081774c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  playerRB: {fileID: 0}
+  scene0LoadDelay: 0
+  scene1LoadDelay: 0
 --- !u!1 &1443909373
 GameObject:
   m_ObjectHideFlags: 0
@@ -23036,6 +23054,10 @@ PrefabInstance:
     - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
       propertyPath: m_Name
       value: Mario
+      objectReference: {fileID: 0}
+    - target: {fileID: 7102567438669882162, guid: 908b189607f928148aabbddf90307287, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -27887,6 +27909,7 @@ MonoBehaviour:
   uIHead: {fileID: 964568593}
   uIHead1: {fileID: 767767570}
   uIHead2: {fileID: 1421166864}
+  didPlayerHitDBox: 0
 --- !u!61 &1732358867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28383,12 +28406,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1747358730}
-  playerRB: {fileID: 0}
+  playerRB: {fileID: 1747358761}
   scene0LoadDelay: 0
   scene1LoadDelay: 0
 --- !u!212 &1747358756 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4881780675888844766, guid: 908b189607f928148aabbddf90307287, type: 3}
+  m_PrefabInstance: {fileID: 1470897112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1747358761 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 5516273061604097975, guid: 908b189607f928148aabbddf90307287, type: 3}
   m_PrefabInstance: {fileID: 1470897112}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1750267009

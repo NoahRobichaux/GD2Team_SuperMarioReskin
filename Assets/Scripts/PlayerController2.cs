@@ -91,22 +91,20 @@ public class PlayerController2 : MonoBehaviour
     public static bool playerHitGoomba15;
     public static bool playerKillGoomba15;
 
-    void Awake()
-    {
-        playerRB.bodyType = RigidbodyType2D.Dynamic;
-    }
     // Start is called before the first frame update
     void Start()
     {
-        playerRB = GetComponent<Rigidbody2D>();
         scene0LoadDelay = 22f;
         scene1LoadDelay = 3f;
+
+        playerRB = GetComponent<Rigidbody2D>();
+        playerRB.bodyType = RigidbodyType2D.Dynamic;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //copy and paste this for the other 15 goobers i mean goombas
+        player.GetComponent<SpriteRenderer>().enabled = true;
 
         if (DeathBox.isPlayerDead == true && playerHitGoomba == true && SpongeDollars.lifeCount > 0)
         {
@@ -252,7 +250,7 @@ public class PlayerController2 : MonoBehaviour
             scene0LoadDelay -= Time.deltaTime;
         }
 
-        if (scene0LoadDelay <= 0 && SpongeDollars.lifeCount == 0)
+        if (scene0LoadDelay <= 0 && SpongeDollars.lifeCount <= 0)
         {
             SceneManager.LoadScene(0);
         }
@@ -261,185 +259,260 @@ public class PlayerController2 : MonoBehaviour
             SceneManager.LoadScene(1);
         }
 
-        if (playerHitGoomba == true || playerHitGoomba1 == true || playerHitGoomba2 == true || playerHitGoomba3 == true || playerHitGoomba4 == true || playerHitGoomba5 == true || playerHitGoomba6 == true || playerHitGoomba7 == true || playerHitGoomba8 == true || playerHitGoomba9 == true || playerHitGoomba10 == true || playerHitGoomba11 == true || playerHitGoomba12 == true || playerHitGoomba13 == true || playerHitGoomba14 == true || playerHitGoomba15 == true)
+        if (playerHitGoomba)
         {
-            player.GetComponent<SpriteRenderer>().color = new Color(1f, 1f, 1f, 0f);
             playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba1)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba2)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba3)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba4)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba5)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba6)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba7)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba8)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba9)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba10)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba11)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba12)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba13)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba14)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+        if (playerHitGoomba15)
+        {
+            playerRB.bodyType = RigidbodyType2D.Static;
+            player.GetComponent<SpriteRenderer>().enabled = false;
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.name == "Goomba" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba" && player.transform.position.y < 43.5)
         {
             playerHitGoomba = true;
         }
-        if (collision.gameObject.name == "Goomba" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba" && player.transform.position.y > 43.5)
         {
             playerKillGoomba = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (1)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (1)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba1 = true;
         }
-        if (collision.gameObject.name == "Goomba (1)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (1)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba1 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (2)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (2)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba2 = true;
         }
-        if (collision.gameObject.name == "Goomba (2)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (2)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba2 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (3)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (3)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba3 = true;
         }
-        if (collision.gameObject.name == "Goomba (3)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (3)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba3 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (4)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (4)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba4 = true;
         }
-        if (collision.gameObject.name == "Goomba (4)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (4)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba4 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (5)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (5)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba5 = true;
         }
-        if (collision.gameObject.name == "Goomba (5)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (5)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba5 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (6)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (6)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba6 = true;
         }
-        if (collision.gameObject.name == "Goomba (6)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (6)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba6 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (7)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (7)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba7 = true;
         }
-        if (collision.gameObject.name == "Goomba (7)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (7)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba7 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (8)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (8)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba8 = true;
         }
-        if (collision.gameObject.name == "Goomba (8)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (8)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba8 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (9)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (9)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba9 = true;
         }
-        if (collision.gameObject.name == "Goomba (9)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (9)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba9 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (10)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (10)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba10 = true;
         }
-        if (collision.gameObject.name == "Goomba (10)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (10)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba10 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (11)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (11)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba11 = true;
         }
-        if (collision.gameObject.name == "Goomba (11)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (11)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba11 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (12)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (12)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba12 = true;
         }
-        if (collision.gameObject.name == "Goomba (12)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (12)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba12 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (13)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (13)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba13 = true;
         }
-        if (collision.gameObject.name == "Goomba (13)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (13)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba13 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (14)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (14)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba14 = true;
         }
-        if (collision.gameObject.name == "Goomba (14)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (14)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba14 = true;
             Destroy(collision.gameObject);
             SpongeDollars.score += 100;
         }
 
-        if (collision.gameObject.name == "Goomba (15)" && player.transform.position.y <= 43.5)
+        if (collision.gameObject.name == "Goomba (15)" && player.transform.position.y < 43.5)
         {
             playerHitGoomba15 = true;
         }
-        if (collision.gameObject.name == "Goomba (15)" && player.transform.position.y >= 43.5)
+        if (collision.gameObject.name == "Goomba (15)" && player.transform.position.y > 43.5)
         {
             playerKillGoomba15 = true;
             Destroy(collision.gameObject);
