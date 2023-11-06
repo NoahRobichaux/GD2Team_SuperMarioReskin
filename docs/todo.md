@@ -2,6 +2,8 @@
 
 ***
 
+> ## Checklist Completion: 20/43 (~46.5%)
+> 
 > ⭕️ = Complete
 >
 > ❗️ = In Progress
@@ -10,12 +12,15 @@
 
 ***
 
+> ## Build Status: Buildable (As of 11/06/2023 8:00 A.M.)
+
+***
+
 > ## Programming
 
 ### Priority
 
 - [️⭕️] Code UI for timer, coin counter, score, life counter, etc. (Noah & Abel)
-- [️⭕️] Fix script compilation errors to make game buildable for playtesting (Noah)
 - [️⭕️] Fix DeathBox script (Noah)
 - [️⭕️] Fix coin and score counters (Noah)
 - [️⭕️] Fix ? block behavior (Noah)
