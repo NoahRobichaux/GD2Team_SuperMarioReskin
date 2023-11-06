@@ -7,4 +7,4 @@
 
 ***
 
-[Project Progress](https://github.com/NoahRobichaux/GD2Team_SuperMarioReskin/blob/main/docs/todo.md)
+> [Project Progress](https://github.com/NoahRobichaux/GD2Team_SuperMarioReskin/blob/main/docs/todo.md)
