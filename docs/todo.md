@@ -8,11 +8,11 @@
 
 > ## Completion
 > 
-> ### Total Checklist Completion: 22/46 (~47.8%)
+> ### Total Checklist Completion: 22/48 (~45.8%)
 > 
 > ### Priority Checklist Completion: 9/26 (~34.6%)
 > 
-> ### Extras Checklist Completion: 13/20 (65%)
+> ### Extras Checklist Completion: 13/22 (~59.1%)
 
 ***
 
@@ -28,9 +28,9 @@
 
 ***
 
-> ## Project Build Status:
+> ## Project Build Status
 >
-> ### Buildable (As of Commit #164)
+> ### Buildable (As of Commit #165)
 
 ***
 
@@ -67,6 +67,7 @@
 - [❌️] Program eating krabby patty "nom" SFX when player collides with krabby patty (Noah)
 - [❌️] Program "cha-ching" SFX when player collides with a coin ? block for the first time (Noah)
 - [❌️] Program empty block hit SFX when player collides with an empty ? Block (Noah)
+- [❌️] Program walk SFX (Abel)
 
 ***
 
@@ -120,19 +121,20 @@
 
 ## Sound Design
 
-### Extras (Low Priority)
-
-- [️⭕️] Main menu song (Noah)
-- [⭕️] Walk SFX (Abel)
-- [❌️] Find SFX for hitting an empty ? block (Any)
-
-***
-
 ### Extras (High Priority)
 
 - [⭕️] Find SFX for eating a Krabby Patty (Noah)
 - [⭕️] Brick break SFX (Mohamed)
 - [❌️] Find BGM for level (Any)
+- [❌️] Find SpongeDollar collect SFX (Any)
+
+***
+
+### Extras (Low Priority)
+
+- [️⭕️] Main menu song (Noah)
+- [⭕️] Walk SFX (Abel)
+- [❌️] Find SFX for hitting an empty ? block (Any)
 
 ***
 
