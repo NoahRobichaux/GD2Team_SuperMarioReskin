@@ -2,29 +2,39 @@
 
 ***
 
-> ## Total Checklist Completion: 22/46 (~47.8%)
+## Info
 
-> ## Priority Checklist Completion: 9/26 (~34.6%)
+***
 
-> ## Extras Checklist Completion: 13/20 (65%)
+> ## Completion
+> 
+> ### Total Checklist Completion: 22/46 (~47.8%)
+> 
+> ### Priority Checklist Completion: 9/26 (~34.6%)
+> 
+> ### Extras Checklist Completion: 13/20 (65%)
 
 ***
 
 > ## Key
 > 
-> ⭕️ = Complete
+> ### ⭕️ = Complete
 >
-> ❗️ = In Progress
+> ### ❗️ = In Progress
 > 
-> ️❌️ = Incomplete
+> ### ❌️ = Incomplete
+>
+> ### (_Name_) = Assignee
 
 ***
 
-> ## Build Status: Buildable (As of Commit #163)
+> ## Project Build Status:
+>
+> ### Buildable (As of Commit #164)
 
 ***
 
-> ## Programming
+## Programming
 
 ### Priority
 
@@ -43,11 +53,7 @@
 - [❌️] Activate Abel's Mushroom script when player collides with the krabby patty sprite (Noah & Abel)
 - [❌️] Implement isSuperMario bool into the scripts and only kill player if isPlayerDead = true and isSuperMario = false (Noah)
 
-> _Make the Krabby Patty function like the Super Mushroom in Mario, 
-> revert the player sprite to the small state upon enemy collision from the sides and
-> grow to super size when the player enters the patty's trigger collider.
-> Also, Squiward needs to be in small form upon level load, he can
-> only be Super Squidward when "eating" a Krabby Patty._
+***
 
 ### Extras
 
@@ -64,7 +70,15 @@
 
 ***
 
-> ## Art
+> _Reminder: Make the Krabby Patty function like the Super Mushroom in Mario, 
+> revert the player sprite to the small state upon enemy collision from the sides and
+> grow to super size when the player enters the patty's trigger collider.
+> Also, Squiward needs to be in small form upon level load, he can
+> only be Super Squidward when "eating" a Krabby Patty._
+
+***
+
+## Art
 
 ### Priority
 
@@ -79,8 +93,7 @@
 - [❌️] Krabby Patty sprite (Nathan or Michael)
 - [❌️] Koopa Troopa replacement sprite (Nathan or Michael)
 
-> _PNGs go in "Custom Sprites", 
-> PSDs go in "Other"_
+***
 
 ### Extras
 
@@ -91,7 +104,12 @@
 
 ***
 
-> ## Level Design
+> _Reminder: PNGs go in "Custom Sprites", 
+> PSDs go in "Other". Prioritize PNGs unless necessary._
+
+***
+
+## Level Design
 
 ### Priority
 
@@ -100,7 +118,7 @@
 
 ***
 
-> ## Sound Design
+## Sound Design
 
 ### Extras (Low Priority)
 
@@ -108,8 +126,16 @@
 - [⭕️] Walk SFX (Abel)
 - [❌️] Find SFX for hitting an empty ? block (Any)
 
+***
+
 ### Extras (High Priority)
 
 - [⭕️] Find SFX for eating a Krabby Patty (Noah)
 - [⭕️] Brick break SFX (Mohamed)
 - [❌️] Find BGM for level (Any)
+
+***
+
+>
+> _Note: This is a To-Do List. The completion percentage is of this list and is not representative of total project progress._
+> 
