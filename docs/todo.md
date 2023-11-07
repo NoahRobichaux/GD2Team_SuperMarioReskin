@@ -2,11 +2,11 @@
 
 ***
 
-> ## Total Checklist Completion: 22/43 (~51.2%)
+> ## Total Checklist Completion: 22/46 (~47.8%)
 
-> ## Priority Checklist Completion: 13/31 (~41.9%)
+> ## Priority Checklist Completion: 9/26 (~34.6%)
 
-> ## Extras Checklist Completion: 13/17 (~76.5%)
+> ## Extras Checklist Completion: 13/20 (65%)
 
 ***
 
@@ -20,7 +20,7 @@
 
 ***
 
-> ## Build Status: Buildable (As of Commit #159)
+> ## Build Status: Buildable (As of Commit #163)
 
 ***
 
@@ -57,6 +57,7 @@
 - [⭕️] Program death Vine Boom SFX (Noah)
 - [⭕️] Program game over Sad Violin Airhorn music (Noah)
 - [⭕️] Fade screen to black with gameOverText in front if at 0 lives (Noah)
+- [❗️] Program brick break SFX (Noah)
 - [❌️] Program eating krabby patty "nom" SFX when player collides with krabby patty (Noah)
 - [❌️] Program "cha-ching" SFX when player collides with a coin ? block for the first time (Noah)
 - [❌️] Program empty block hit SFX when player collides with an empty ? Block (Noah)
@@ -86,6 +87,7 @@
 - [⭕️] Design App Icon (Noah)
 - [⭕️] Design App Logo (Noah)
 - [⭕️] Implement art into Unity game startup animation (Noah)
+- [❌️] Empty ? block sprite (Nathan or Michael)
 
 ***
 
@@ -103,10 +105,11 @@
 ### Extras (Low Priority)
 
 - [️⭕️] Main menu song (Noah)
-- [⭕️] Empty block hit SFX (Mohamed)
 - [⭕️] Walk SFX (Abel)
+- [❌️] Find SFX for hitting an empty ? block (Any)
 
 ### Extras (High Priority)
 
 - [⭕️] Find SFX for eating a Krabby Patty (Noah)
+- [⭕️] Brick break SFX (Mohamed)
 - [❌️] Find BGM for level (Any)
