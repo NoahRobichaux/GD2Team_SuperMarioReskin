@@ -2927,21 +2927,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -2958,6 +2943,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &236095923
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3552,21 +3538,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -3583,6 +3554,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &259949626
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -5517,21 +5489,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -5548,6 +5505,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &383373623
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6002,21 +5960,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -6033,6 +5976,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &427328896
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -11405,21 +11349,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -11436,6 +11365,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &707080080
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -13207,21 +13137,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -13238,6 +13153,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &822042221
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -18795,21 +18711,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -18826,6 +18727,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1189689582
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -19308,21 +19210,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -19339,6 +19226,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1204176952
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -26157,21 +26045,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -26188,6 +26061,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1672188596
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -29790,21 +29664,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -29821,6 +29680,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1777089281
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -30173,21 +30033,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -30204,6 +30049,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1780311658
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -30398,21 +30244,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -30429,6 +30260,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1788384165
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -30623,21 +30455,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -30654,6 +30471,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1796753114
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -32113,21 +31931,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -32144,6 +31947,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &1849355317
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -34243,21 +34047,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -34274,6 +34063,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &2000834092
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -34829,21 +34619,6 @@ MonoBehaviour:
   goomba14RB: {fileID: 1780311654}
   goomba15RB: {fileID: 1788384161}
   goombaWalkSpeed: 1.5
-  goomba1WalkSpeed: 1.5
-  goomba2WalkSpeed: 1.5
-  goomba3WalkSpeed: 1.5
-  goomba4WalkSpeed: 1.5
-  goomba5WalkSpeed: 1.5
-  goomba6WalkSpeed: 1.5
-  goomba7WalkSpeed: 1.5
-  goomba8WalkSpeed: 1.5
-  goomba9WalkSpeed: 1.5
-  goomba10WalkSpeed: 1.5
-  goomba11WalkSpeed: 1.5
-  goomba12WalkSpeed: 1.5
-  goomba13WalkSpeed: 1.5
-  goomba14WalkSpeed: 1.5
-  goomba15WalkSpeed: 1.5
   goombaWalkLeft: 0
   goomba1WalkLeft: 0
   goomba2WalkLeft: 0
@@ -34860,6 +34635,7 @@ MonoBehaviour:
   goomba13WalkLeft: 0
   goomba14WalkLeft: 0
   goomba15WalkLeft: 0
+  collisionCount: 0
 --- !u!70 &2051728097
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
