@@ -779,4 +779,12 @@ public class PlayerController2 : MonoBehaviour
             playerHitBrick30 = true;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "EndTrigger")
+        {
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+    }
 }

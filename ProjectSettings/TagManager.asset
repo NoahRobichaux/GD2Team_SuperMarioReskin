@@ -10,6 +10,7 @@ TagManager:
   - Flagpole
   - Koopa
   - '? Block'
+  - EndTrigger
   layers:
   - Default
   - TransparentFX
