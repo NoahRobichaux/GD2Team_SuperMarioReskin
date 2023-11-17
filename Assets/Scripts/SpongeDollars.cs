@@ -28,6 +28,10 @@ public class SpongeDollars : MonoBehaviour
     public GameObject block10;
     public GameObject block11;
 
+    public GameObject completeStar;
+    public GameObject BGM;
+    public GameObject completeBGM;
+
     public static bool isBlockHit = false;
     public static bool isBlock1Hit = false;
     public static bool isBlock2Hit = false;
@@ -77,6 +81,13 @@ public class SpongeDollars : MonoBehaviour
         {
             gameOverSFX.SetActive(true);
             gameOverText.SetActive(true);
+        }
+
+        if (PlayerController2.isLevelComplete)
+        {
+            completeStar.SetActive(true);
+            BGM.SetActive(false);
+            completeBGM.SetActive(true);
         }
 
         if (isBlockHit == true && PlayerController2.playerHitBlock == true && isBlockDisabled == false)

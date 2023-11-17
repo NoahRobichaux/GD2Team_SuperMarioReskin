@@ -12,6 +12,11 @@ public class PlayerController2 : MonoBehaviour
 
     public float scene0LoadDelay;
     public float scene1LoadDelay;
+    public float scene0LoadDelay2;
+
+    public static bool isLevelComplete;
+
+    public bool setPlayerInvis;
     
     public static bool playerHitBlock;
     public static bool playerHitBlock1;
@@ -96,6 +101,7 @@ public class PlayerController2 : MonoBehaviour
     {
         scene0LoadDelay = 22f;
         scene1LoadDelay = 3f;
+        scene0LoadDelay2 = 3f;
 
         playerRB = GetComponent<Rigidbody2D>();
         playerRB.bodyType = RigidbodyType2D.Dynamic;
@@ -258,6 +264,10 @@ public class PlayerController2 : MonoBehaviour
         {
             SceneManager.LoadScene(1);
         }
+        if (scene0LoadDelay2 <= 0)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
 
         if (playerHitGoomba)
         {
@@ -338,6 +348,16 @@ public class PlayerController2 : MonoBehaviour
         {
             playerRB.bodyType = RigidbodyType2D.Static;
             player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        if (setPlayerInvis)
+        {
+            player.GetComponent<SpriteRenderer>().enabled = false;
+        }
+
+        if (isLevelComplete)
+        {
+            scene0LoadDelay2 -= Time.deltaTime;
         }
     }
 
@@ -778,13 +798,18 @@ public class PlayerController2 : MonoBehaviour
             Bricks.isBrick30Hit = true;
             playerHitBrick30 = true;
         }
+
+        if (collision.gameObject.tag == "EndBoundary")
+        {
+            isLevelComplete = true;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.name == "EndTrigger")
         {
-            player.GetComponent<SpriteRenderer>().enabled = false;
+            setPlayerInvis = true;
         }
     }
 }

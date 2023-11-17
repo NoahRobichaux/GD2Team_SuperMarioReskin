@@ -11,6 +11,8 @@ TagManager:
   - Koopa
   - '? Block'
   - EndTrigger
+  - Projectile
+  - EndBoundary
   layers:
   - Default
   - TransparentFX

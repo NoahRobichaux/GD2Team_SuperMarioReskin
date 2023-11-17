@@ -2037,7 +2037,7 @@ GameObject:
   - component: {fileID: 184062055}
   m_Layer: 0
   m_Name: QuestionBlock (10)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2209,6 +2209,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &191726891
 GameObject:
@@ -2259,7 +2262,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.4576973, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2270,7 +2273,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.08480543, y: 1}
   m_EdgeRadius: 0
 --- !u!4 &191726893
 Transform:
@@ -2380,7 +2383,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 1.0898708, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2391,7 +2394,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 3.1797411, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &209452979
 SpriteRenderer:
@@ -2433,7 +2436,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4bc62fb940f70d041b3f27c05cb0a208, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3682,7 +3685,7 @@ GameObject:
   - component: {fileID: 269491192}
   m_Layer: 0
   m_Name: Brick (12)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4043,7 +4046,7 @@ GameObject:
   - component: {fileID: 280030045}
   m_Layer: 0
   m_Name: Brick (27)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4246,7 +4249,7 @@ GameObject:
   - component: {fileID: 290159998}
   m_Layer: 0
   m_Name: QuestionBlock
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4418,6 +4421,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &290595315
 GameObject:
@@ -5076,7 +5082,7 @@ GameObject:
   - component: {fileID: 375351301}
   m_Layer: 0
   m_Name: QuestionBlock (5)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5248,6 +5254,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &381822995
 GameObject:
@@ -5633,7 +5642,7 @@ GameObject:
   - component: {fileID: 392284904}
   m_Layer: 0
   m_Name: Brick (20)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6420,7 +6429,7 @@ GameObject:
   - component: {fileID: 439311617}
   m_Layer: 0
   m_Name: Brick
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6623,7 +6632,7 @@ GameObject:
   - component: {fileID: 446369451}
   m_Layer: 0
   m_Name: Brick (18)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7660,7 +7669,7 @@ GameObject:
   - component: {fileID: 502261391}
   m_Layer: 0
   m_Name: Brick (24)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8783,7 +8792,7 @@ GameObject:
   - component: {fileID: 563054321}
   m_Layer: 0
   m_Name: QuestionBlock (6)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8955,6 +8964,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &591513094
 GameObject:
@@ -9696,7 +9708,7 @@ GameObject:
   - component: {fileID: 641125927}
   m_Layer: 0
   m_Name: Brick (3)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10373,7 +10385,7 @@ GameObject:
   - component: {fileID: 665549144}
   m_Layer: 0
   m_Name: Brick (7)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11577,7 +11589,7 @@ GameObject:
   - component: {fileID: 712941136}
   m_Layer: 0
   m_Name: Brick (13)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12000,7 +12012,7 @@ GameObject:
   - component: {fileID: 765345289}
   m_Layer: 0
   m_Name: Brick (15)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12821,7 +12833,7 @@ GameObject:
   - component: {fileID: 815078345}
   m_Layer: 0
   m_Name: Brick (6)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13365,7 +13377,7 @@ GameObject:
   - component: {fileID: 845772808}
   m_Layer: 0
   m_Name: Brick (1)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13726,7 +13738,7 @@ GameObject:
   - component: {fileID: 875683000}
   m_Layer: 0
   m_Name: Brick (16)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14329,7 +14341,7 @@ GameObject:
   - component: {fileID: 896617591}
   m_Layer: 0
   m_Name: Brick (17)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14532,7 +14544,7 @@ GameObject:
   - component: {fileID: 907294658}
   m_Layer: 0
   m_Name: Brick (10)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16037,7 +16049,7 @@ GameObject:
   - component: {fileID: 991598640}
   m_Layer: 0
   m_Name: QuestionBlock (8)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16209,6 +16221,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1004499162
 GameObject:
@@ -16697,7 +16712,7 @@ GameObject:
   - component: {fileID: 1049936611}
   m_Layer: 0
   m_Name: Boundary_Right
-  m_TagString: Untagged
+  m_TagString: EndBoundary
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16763,7 +16778,7 @@ Transform:
   m_GameObject: {fileID: 1049936608}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 213.616, y: 6.429001, z: 1.3030906}
+  m_LocalPosition: {x: 196.78, y: 6.429001, z: 0}
   m_LocalScale: {x: 1, y: 23, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17275,7 +17290,7 @@ GameObject:
   - component: {fileID: 1077869377}
   m_Layer: 0
   m_Name: QuestionBlock (9)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17447,6 +17462,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1085460700
 GameObject:
@@ -17599,7 +17617,7 @@ GameObject:
   - component: {fileID: 1097036592}
   m_Layer: 0
   m_Name: Brick (23)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18249,7 +18267,7 @@ GameObject:
   - component: {fileID: 1170108237}
   m_Layer: 0
   m_Name: Brick (2)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19978,7 +19996,7 @@ GameObject:
   - component: {fileID: 1277323760}
   m_Layer: 0
   m_Name: Brick (11)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20265,7 +20283,7 @@ GameObject:
   - component: {fileID: 1296107796}
   m_Layer: 0
   m_Name: Brick (19)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20552,7 +20570,7 @@ GameObject:
   - component: {fileID: 1312524603}
   m_Layer: 0
   m_Name: QuestionBlock (4)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20724,6 +20742,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1332967318
 GameObject:
@@ -22412,7 +22433,7 @@ GameObject:
   - component: {fileID: 1429655609}
   m_Layer: 0
   m_Name: QuestionBlock (3)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22584,6 +22605,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1431364061
 GameObject:
@@ -22602,7 +22626,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1431364062
 Transform:
@@ -22668,6 +22692,9 @@ MonoBehaviour:
   block9: {fileID: 0}
   block10: {fileID: 0}
   block11: {fileID: 0}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!114 &1431364065
 MonoBehaviour:
@@ -22685,6 +22712,8 @@ MonoBehaviour:
   playerRB: {fileID: 0}
   scene0LoadDelay: 0
   scene1LoadDelay: 0
+  scene0LoadDelay2: 3
+  setPlayerInvis: 0
 --- !u!1 &1443909373
 GameObject:
   m_ObjectHideFlags: 0
@@ -23155,7 +23184,7 @@ GameObject:
   - component: {fileID: 1475779768}
   m_Layer: 0
   m_Name: QuestionBlock (11)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23327,6 +23356,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1491769599
 GameObject:
@@ -23343,7 +23375,7 @@ GameObject:
   - component: {fileID: 1491769604}
   m_Layer: 0
   m_Name: QuestionBlock (7)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23515,6 +23547,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1501713110
 GameObject:
@@ -23763,7 +23798,7 @@ GameObject:
   - component: {fileID: 1512327117}
   m_Layer: 0
   m_Name: Brick (30)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24124,7 +24159,7 @@ GameObject:
   - component: {fileID: 1521173962}
   m_Layer: 0
   m_Name: Brick (4)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26487,7 +26522,7 @@ GameObject:
   - component: {fileID: 1703514663}
   m_Layer: 0
   m_Name: Brick (29)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27112,7 +27147,7 @@ GameObject:
   - component: {fileID: 1725835580}
   m_Layer: 0
   m_Name: Brick (25)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28148,6 +28183,8 @@ MonoBehaviour:
   playerRB: {fileID: 1747358761}
   scene0LoadDelay: 0
   scene1LoadDelay: 0
+  scene0LoadDelay2: 3
+  setPlayerInvis: 0
 --- !u!212 &1747358756 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 4881780675888844766, guid: 908b189607f928148aabbddf90307287, type: 3}
@@ -28173,7 +28210,7 @@ GameObject:
   - component: {fileID: 1750267014}
   m_Layer: 0
   m_Name: Brick (26)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28618,7 +28655,7 @@ GameObject:
   - component: {fileID: 1757838327}
   m_Layer: 0
   m_Name: Brick (9)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28821,7 +28858,7 @@ GameObject:
   - component: {fileID: 1758614478}
   m_Layer: 0
   m_Name: Brick (14)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29024,7 +29061,7 @@ GameObject:
   - component: {fileID: 1760091528}
   m_Layer: 0
   m_Name: Brick (21)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30629,7 +30666,7 @@ GameObject:
   - component: {fileID: 1809313748}
   m_Layer: 0
   m_Name: Brick (5)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31148,7 +31185,7 @@ GameObject:
   - component: {fileID: 1825834286}
   m_Layer: 0
   m_Name: QuestionBlock (2)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31320,6 +31357,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1846103890
 GameObject:
@@ -31997,7 +32037,7 @@ GameObject:
   - component: {fileID: 1863200331}
   m_Layer: 0
   m_Name: QuestionBlock (1)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32169,6 +32209,9 @@ MonoBehaviour:
   block9: {fileID: 1077869372}
   block10: {fileID: 184062050}
   block11: {fileID: 1475779763}
+  completeStar: {fileID: 0}
+  BGM: {fileID: 0}
+  completeBGM: {fileID: 0}
   gameManager: {fileID: 1431364061}
 --- !u!1 &1874826780
 GameObject:
@@ -32849,7 +32892,7 @@ GameObject:
   - component: {fileID: 1921620026}
   m_Layer: 0
   m_Name: Brick (28)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34137,7 +34180,7 @@ GameObject:
   - component: {fileID: 2023307935}
   m_Layer: 0
   m_Name: Brick (8)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35785,7 +35828,7 @@ GameObject:
   - component: {fileID: 2140476167}
   m_Layer: 0
   m_Name: Brick (22)
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
