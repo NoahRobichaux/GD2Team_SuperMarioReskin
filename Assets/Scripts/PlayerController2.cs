@@ -266,7 +266,7 @@ public class PlayerController2 : MonoBehaviour
         }
         if (scene0LoadDelay2 <= 0)
         {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene(0);
         }
 
         if (playerHitGoomba)
