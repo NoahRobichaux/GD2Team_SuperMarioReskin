@@ -1164,6 +1164,8 @@ MonoBehaviour:
   block10: {fileID: 0}
   block11: {fileID: 0}
   completeStar: {fileID: 1170699112}
+  BGM: {fileID: 381109828}
+  completeBGM: {fileID: 1350375173}
   gameManager: {fileID: 1131838144}
 --- !u!4 &1131838147
 Transform:
