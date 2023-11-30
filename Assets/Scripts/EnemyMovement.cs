@@ -40,88 +40,158 @@ public class EnemyMovement : MonoBehaviour
     public Rigidbody2D goomba14RB;
     public Rigidbody2D goomba15RB;
 
-    public float goombaWalkSpeed;
-    public bool goombaWalkLeft;
-    public bool goomba1WalkLeft;
-    public bool goomba2WalkLeft;
-    public bool goomba3WalkLeft;
-    public bool goomba4WalkLeft;
-    public bool goomba5WalkLeft;
-    public bool goomba6WalkLeft;
-    public bool goomba7WalkLeft;
-    public bool goomba8WalkLeft;
-    public bool goomba9WalkLeft;
-    public bool goomba10WalkLeft;
-    public bool goomba11WalkLeft;
-    public bool goomba12WalkLeft;
-    public bool goomba13WalkLeft;
-    public bool goomba14WalkLeft;
-    public bool goomba15WalkLeft;
+    public float goombaWalkSpeed = 1.5f;
+
+    public bool goombaWalkLeft = true;
+    public bool goomba1WalkLeft = true;
+    public bool goomba2WalkLeft = true;
+    public bool goomba3WalkLeft = true;
+    public bool goomba4WalkLeft = true;
+    public bool goomba5WalkLeft = true;
+    public bool goomba6WalkLeft = true;
+    public bool goomba7WalkLeft = true;
+    public bool goomba8WalkLeft = true;
+    public bool goomba9WalkLeft = true;
+    public bool goomba10WalkLeft = true;
+    public bool goomba11WalkLeft = true;
+    public bool goomba12WalkLeft = true;
+    public bool goomba13WalkLeft = true;
+    public bool goomba14WalkLeft = true;
+    public bool goomba15WalkLeft = true;
+
+    public int collisionCount;
 
     // Start is called before the first frame update
     void Start()
     {
         goombaRB = goomba.GetComponent<Rigidbody2D>();
-        goomba1RB = goomba.GetComponent<Rigidbody2D>();
-        goomba2RB = goomba.GetComponent<Rigidbody2D>();
-        goomba3RB = goomba.GetComponent<Rigidbody2D>();
-        goomba4RB = goomba.GetComponent<Rigidbody2D>();
-        goomba5RB = goomba.GetComponent<Rigidbody2D>();
-        goomba6RB = goomba.GetComponent<Rigidbody2D>();
-        goomba7RB = goomba.GetComponent<Rigidbody2D>();
-        goomba8RB = goomba.GetComponent<Rigidbody2D>();
-        goomba9RB = goomba.GetComponent<Rigidbody2D>();
-        goomba10RB = goomba.GetComponent<Rigidbody2D>();
-        goomba11RB = goomba.GetComponent<Rigidbody2D>();
-        goomba12RB = goomba.GetComponent<Rigidbody2D>();
-        goomba13RB = goomba.GetComponent<Rigidbody2D>();
-        goomba14RB = goomba.GetComponent<Rigidbody2D>();
-        goomba15RB = goomba.GetComponent<Rigidbody2D>();
+        goomba1RB = goomba1.GetComponent<Rigidbody2D>();
+        goomba2RB = goomba2.GetComponent<Rigidbody2D>();
+        goomba3RB = goomba3.GetComponent<Rigidbody2D>();
+        goomba4RB = goomba4.GetComponent<Rigidbody2D>();
+        goomba5RB = goomba5.GetComponent<Rigidbody2D>();
+        goomba6RB = goomba6.GetComponent<Rigidbody2D>();
+        goomba7RB = goomba7.GetComponent<Rigidbody2D>();
+        goomba8RB = goomba8.GetComponent<Rigidbody2D>();
+        goomba9RB = goomba9.GetComponent<Rigidbody2D>();
+        goomba10RB = goomba10.GetComponent<Rigidbody2D>();
+        goomba11RB = goomba11.GetComponent<Rigidbody2D>();
+        goomba12RB = goomba12.GetComponent<Rigidbody2D>();
+        goomba13RB = goomba13.GetComponent<Rigidbody2D>();
+        goomba14RB = goomba14.GetComponent<Rigidbody2D>();
+        goomba15RB = goomba15.GetComponent<Rigidbody2D>();
     }
 
-    private void Awake()
-    {
-        goombaRB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba1RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba2RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba3RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba4RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba5RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba6RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba7RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba8RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba9RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba10RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba11RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba12RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba13RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba14RB.velocity = Vector2.left * goombaWalkSpeed;
-        goomba15RB.velocity = Vector2.left * goombaWalkSpeed;
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        goombaWalkLeft = true;
-        goomba1WalkLeft = true;
-        goomba2WalkLeft = true;
-        goomba3WalkLeft = true;
-        goomba4WalkLeft = true;
-        goomba5WalkLeft = true;
-        goomba6WalkLeft = true;
-        goomba7WalkLeft = true;
-        goomba8WalkLeft = true;
-        goomba9WalkLeft = true;
-        goomba10WalkLeft = true;
-        goomba11WalkLeft = true;
-        goomba12WalkLeft = true;
-        goomba13WalkLeft = true;
-        goomba14WalkLeft = true;
-        goomba15WalkLeft = true;
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.contactCount < 2)
+        {
+            collisionCount = collision.contactCount;
+
+            goombaRB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba1RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba2RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba3RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba4RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba5RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba6RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba7RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba8RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba9RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba10RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba11RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba12RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba13RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba14RB.velocity = Vector2.left * goombaWalkSpeed;
+            goomba15RB.velocity = Vector2.left * goombaWalkSpeed;
+        }
+
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount --;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba1 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount --;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba2 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount --;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba3 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount --;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba4 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount --;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba5 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount --;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba6 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba7 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba8 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba9 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba10 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba11 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba12 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba13 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba14 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+        if (collision.gameObject.tag == "Player" && PlayerController2.playerHitGoomba15 == true)
+        {
+            DeathBox.isPlayerDead = true;
+            SpongeDollars.lifeCount--;
+        }
+
         if (collision.gameObject.tag == "Pipe" && goombaWalkLeft == true)
         {
             goombaRB.velocity = Vector2.zero;
@@ -145,18 +215,22 @@ public class EnemyMovement : MonoBehaviour
 
         if (collision.gameObject.tag == "Pipe" && goomba1WalkLeft == true)
         {
+            goomba1RB.velocity = Vector2.zero;
             goomba1RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Pipe" && goomba1WalkLeft == false)
         {
+            goomba1RB.velocity = Vector2.zero;
             goomba1RB.velocity = Vector2.left * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba1WalkLeft == true)
         {
+            goomba1RB.velocity = Vector2.zero;
             goomba1RB.velocity = Vector2.right * goombaWalkSpeed;
         }
         if (collision.gameObject.tag == "Goomba" && goomba1WalkLeft == false)
         {
+            goomba1RB.velocity = Vector2.zero;
             goomba1RB.velocity = Vector2.left * goombaWalkSpeed;
         }
 
