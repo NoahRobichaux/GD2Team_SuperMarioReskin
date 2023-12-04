@@ -2703,6 +2703,7 @@ GameObject:
   - component: {fileID: 236095919}
   - component: {fileID: 236095922}
   - component: {fileID: 236095923}
+  - component: {fileID: 236095924}
   m_Layer: 0
   m_Name: Goomba (2)
   m_TagString: Goomba
@@ -2740,7 +2741,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2811,7 +2812,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236095917}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -2901,6 +2902,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0000076293945, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &236095924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236095917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &252078347
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,6 +3328,7 @@ GameObject:
   - component: {fileID: 259949622}
   - component: {fileID: 259949625}
   - component: {fileID: 259949626}
+  - component: {fileID: 259949627}
   m_Layer: 0
   m_Name: Goomba (4)
   m_TagString: Goomba
@@ -3351,7 +3366,7 @@ Rigidbody2D:
   m_Mass: 0.5083342
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -3422,7 +3437,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259949620}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -3512,6 +3527,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0000030994415, y: 0}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &259949627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259949620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &267831365
 GameObject:
   m_ObjectHideFlags: 3
@@ -5431,6 +5459,7 @@ GameObject:
   - component: {fileID: 383373619}
   - component: {fileID: 383373622}
   - component: {fileID: 383373623}
+  - component: {fileID: 383373624}
   m_Layer: 0
   m_Name: Goomba (7)
   m_TagString: Goomba
@@ -5468,7 +5497,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5539,7 +5568,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383373617}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -5629,6 +5658,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.000019073486, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &383373624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383373617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &392284899
 GameObject:
   m_ObjectHideFlags: 0
@@ -5902,6 +5944,7 @@ GameObject:
   - component: {fileID: 427328892}
   - component: {fileID: 427328895}
   - component: {fileID: 427328896}
+  - component: {fileID: 427328897}
   m_Layer: 0
   m_Name: Goomba (6)
   m_TagString: Goomba
@@ -5939,7 +5982,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -6010,7 +6053,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427328890}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -6100,6 +6143,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0000076293945, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &427328897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427328890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &430927789
 GameObject:
   m_ObjectHideFlags: 0
@@ -10913,6 +10969,7 @@ GameObject:
   - component: {fileID: 707080076}
   - component: {fileID: 707080079}
   - component: {fileID: 707080080}
+  - component: {fileID: 707080081}
   m_Layer: 0
   m_Name: Goomba
   m_TagString: Goomba
@@ -10950,7 +11007,7 @@ Rigidbody2D:
   m_Mass: 0.48425013
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11021,7 +11078,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707080074}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -11111,6 +11168,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.029482493, y: -0.000015160924}
   m_Size: {x: 1.8538276, y: 3.58}
   m_Direction: 0
+--- !u!114 &707080081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707080074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &712941131
 GameObject:
   m_ObjectHideFlags: 0
@@ -12855,6 +12925,7 @@ GameObject:
   - component: {fileID: 822042217}
   - component: {fileID: 822042220}
   - component: {fileID: 822042221}
+  - component: {fileID: 822042222}
   m_Layer: 0
   m_Name: Goomba (5)
   m_TagString: Goomba
@@ -12892,7 +12963,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -12963,7 +13034,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822042215}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -13053,6 +13124,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.000008106232, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &822042222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822042215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &845772803
 GameObject:
   m_ObjectHideFlags: 0
@@ -18379,6 +18463,7 @@ GameObject:
   - component: {fileID: 1189689578}
   - component: {fileID: 1189689581}
   - component: {fileID: 1189689582}
+  - component: {fileID: 1189689583}
   m_Layer: 0
   m_Name: Goomba (10)
   m_TagString: Goomba
@@ -18416,7 +18501,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -18487,7 +18572,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189689576}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -18577,6 +18662,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1189689583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189689576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1201157330
 GameObject:
   m_ObjectHideFlags: 0
@@ -18878,6 +18976,7 @@ GameObject:
   - component: {fileID: 1204176948}
   - component: {fileID: 1204176951}
   - component: {fileID: 1204176952}
+  - component: {fileID: 1204176953}
   m_Layer: 0
   m_Name: Goomba (11)
   m_TagString: Goomba
@@ -18915,7 +19014,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -18986,7 +19085,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204176946}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -19076,6 +19175,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.000015258789, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1204176953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204176946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1211831371
 GameObject:
   m_ObjectHideFlags: 0
@@ -24411,6 +24523,134 @@ Transform:
   - {fileID: 1049936610}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1563972819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563972821}
+  - component: {fileID: 1563972820}
+  m_Layer: 0
+  m_Name: BGM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1563972820
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563972819}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 82cdff8cc28e56b44bde805546415dbf, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1563972821
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563972819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1584285799
 GameObject:
   m_ObjectHideFlags: 0
@@ -25613,6 +25853,7 @@ GameObject:
   - component: {fileID: 1672188592}
   - component: {fileID: 1672188595}
   - component: {fileID: 1672188596}
+  - component: {fileID: 1672188597}
   m_Layer: 0
   m_Name: Goomba (8)
   m_TagString: Goomba
@@ -25650,7 +25891,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -25721,7 +25962,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672188590}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -25811,6 +26052,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.0000076293945, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1672188597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672188590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1677782795
 GameObject:
   m_ObjectHideFlags: 0
@@ -28755,6 +29009,7 @@ GameObject:
   - component: {fileID: 1777089277}
   - component: {fileID: 1777089280}
   - component: {fileID: 1777089281}
+  - component: {fileID: 1777089282}
   m_Layer: 0
   m_Name: Goomba (12)
   m_TagString: Goomba
@@ -28792,7 +29047,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -28863,7 +29118,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1777089275}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -28953,6 +29208,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1777089282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777089275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1778859892
 GameObject:
   m_ObjectHideFlags: 0
@@ -29124,6 +29392,7 @@ GameObject:
   - component: {fileID: 1780311654}
   - component: {fileID: 1780311657}
   - component: {fileID: 1780311658}
+  - component: {fileID: 1780311659}
   m_Layer: 0
   m_Name: Goomba (14)
   m_TagString: Goomba
@@ -29161,7 +29430,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -29232,7 +29501,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1780311652}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -29322,6 +29591,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1780311659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780311652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1788384159
 GameObject:
   m_ObjectHideFlags: 0
@@ -29335,6 +29617,7 @@ GameObject:
   - component: {fileID: 1788384161}
   - component: {fileID: 1788384164}
   - component: {fileID: 1788384165}
+  - component: {fileID: 1788384166}
   m_Layer: 0
   m_Name: Goomba (15)
   m_TagString: Goomba
@@ -29372,7 +29655,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -29443,7 +29726,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788384159}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -29533,6 +29816,19 @@ CapsuleCollider2D:
   m_Offset: {x: -0.000030517578, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1788384166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1788384159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1796753108
 GameObject:
   m_ObjectHideFlags: 0
@@ -29546,6 +29842,7 @@ GameObject:
   - component: {fileID: 1796753110}
   - component: {fileID: 1796753113}
   - component: {fileID: 1796753114}
+  - component: {fileID: 1796753115}
   m_Layer: 0
   m_Name: Goomba (9)
   m_TagString: Goomba
@@ -29583,7 +29880,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -29654,7 +29951,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796753108}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -29744,6 +30041,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0000076293945, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1796753115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796753108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1797041504
 GameObject:
   m_ObjectHideFlags: 0
@@ -31229,6 +31539,7 @@ GameObject:
   - component: {fileID: 1849355313}
   - component: {fileID: 1849355316}
   - component: {fileID: 1849355317}
+  - component: {fileID: 1849355318}
   m_Layer: 0
   m_Name: Goomba (1)
   m_TagString: Goomba
@@ -31266,7 +31577,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -31337,7 +31648,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1849355311}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -31427,6 +31738,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &1849355318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849355311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &1851891485
 GameObject:
   m_ObjectHideFlags: 0
@@ -33190,6 +33514,7 @@ GameObject:
   - component: {fileID: 2000834088}
   - component: {fileID: 2000834091}
   - component: {fileID: 2000834092}
+  - component: {fileID: 2000834093}
   m_Layer: 0
   m_Name: Goomba (3)
   m_TagString: Goomba
@@ -33227,7 +33552,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -33298,7 +33623,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000834086}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -33388,6 +33713,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0000076293945, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &2000834093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2000834086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &2001105731
 GameObject:
   m_ObjectHideFlags: 0
@@ -33762,6 +34100,7 @@ GameObject:
   - component: {fileID: 2051728093}
   - component: {fileID: 2051728096}
   - component: {fileID: 2051728097}
+  - component: {fileID: 2051728098}
   m_Layer: 0
   m_Name: Goomba (13)
   m_TagString: Goomba
@@ -33799,7 +34138,7 @@ Rigidbody2D:
   m_Mass: 0.50833416
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 4.71
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -33870,7 +34209,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2051728091}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ae7a85cf015ae304ea943584c35c0e80, type: 3}
   m_Name: 
@@ -33960,6 +34299,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.000015258789}
   m_Size: {x: 1.9599998, y: 3.58}
   m_Direction: 0
+--- !u!114 &2051728098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051728091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25ffdee344a08384c911f822c25561a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goombaWalkSpeed: 1.5
 --- !u!1 &2079611094
 GameObject:
   m_ObjectHideFlags: 0
@@ -36138,6 +36490,7 @@ SceneRoots:
   - {fileID: 1180871127}
   - {fileID: 1526262538}
   - {fileID: 1550012446}
+  - {fileID: 1563972821}
   - {fileID: 1431364062}
   - {fileID: 483991607}
   - {fileID: 746549136}
